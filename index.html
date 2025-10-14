@@ -2,45 +2,53 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 <title>Zero Day Exploits — RSVP Corpus Navigator</title>
 <style>
   html, body {
     margin:0; height:100%; background:#000;
     color:#00ff7f; font-family:'Courier New', monospace;
     overflow:hidden;
+    touch-action:manipulation;
   }
-  canvas { position:fixed; top:0; left:0; width:100%; height:100%; z-index:0; }
+  canvas { position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:0; }
   h1 { color:#00ff7f; text-shadow:0 0 10px #00ff7f;
     font-size:1.2rem; margin:0; position:fixed; top:10px; left:10px; z-index:10; }
-  .hint { position:fixed; left:18px; bottom:20px; z-index:12; font-size:0.85rem; opacity:0.8; }
-  .holo-wrap { position: fixed; inset: 10% 6% 10% 6%; z-index: 40; display:none; }
+  .hint { position:fixed; left:18px; bottom:20px; z-index:12; font-size:0.95rem; opacity:0.9; }
+  .hint a { color:#00ff7f; text-decoration:underline; }
+  .holo-wrap { position: fixed; inset: 10% 2% 10% 2%; z-index: 40; display:none; }
   .holo { position: absolute; inset:0; border:1px solid #00ff7f;
     background: rgba(0,10,0,0.85); box-shadow:0 0 25px #00ff7f, inset 0 0 30px rgba(0,255,128,0.2);
     backdrop-filter: blur(3px); overflow:hidden; }
   .holo-header { display:flex; align-items:center; justify-content:space-between;
     padding:10px; border-bottom:1px dashed #00ff7f; background: rgba(0,30,0,0.6); }
   .holo-title { font-weight:bold; }
-  .holo-content { position:absolute; inset:50px 0 0 0; overflow:auto; padding:14px; scrollbar-width: thin; }
+  .holo-content { position:absolute; inset:50px 0 0 0; overflow:auto; padding:14px; scrollbar-width: thin; max-height:calc(100% - 50px);}
   .book-card { border:1px solid #00ff7f; margin:10px 0; padding:10px;
     background: rgba(0, 10, 0, 0.6); box-shadow: 0 0 8px #00ff7f; }
   .book-title { font-weight:bold; margin-bottom:6px; color:#00ffbf; }
-  .book-abstract { color:#66ffcc; font-size:0.92rem; }
+  .book-abstract { color:#66ffcc; font-size:0.96rem; }
   .close-x { background:transparent; border:1px solid #00ff7f;
-    color:#00ff7f; padding:4px 8px; cursor:pointer; }
+    color:#00ff7f; padding:4px 8px; cursor:pointer; font-size:1rem; }
+  /* Responsive for mobile */
+  @media (max-width: 600px) {
+    .holo-wrap { inset: 4% 1% 8% 1%; }
+    .holo-content { padding:8px; font-size:1.02rem; }
+    .book-card { font-size:0.95rem; padding:7px; }
+    h1 { font-size:1rem; left:6px; top:6px; }
+    .hint { font-size:0.92rem; left:6px; bottom:8px; }
+  }
 </style>
 </head>
 <body>
 <canvas id="stars"></canvas>
 <canvas id="planets"></canvas>
-
 <h1>☣ Zero Day Exploits — RSVP Corpus ☣</h1>
 <div class="hint">
-  <a href="https://github.com/standardgalactic/paracosm/edit/main/index.html" target="_blank" style="color:#00ff7f;text-decoration:underline;">
-    Edit source code.
+  <a href="https://github.com/standardgalactic/paracosm/edit/main/index.html" target="_blank">
+    Edit source code
   </a>
 </div>
-
 <div class="holo-wrap" id="modalWrap">
   <div class="holo" role="dialog" aria-modal="true" aria-labelledby="holoTitle">
     <div class="holo-header">
@@ -62,6 +70,7 @@ const cycles = [
   "Transcendental RSVP",
   "Adaptive Systems & Civilization"
 ];
+
 
 const BOOKS = [
   // Cycle I — 1..5
@@ -129,10 +138,13 @@ let w,h,stars=[],planets=[];
 // --- Resize and Layout ---
 function resize(){
   w=window.innerWidth; h=window.innerHeight;
-  c.width=p.width=w; c.height=p.height=h;
+  c.width=w; c.height=h; p.width=w; p.height=h;
   stars=Array.from({length:500},()=>({x:Math.random()*w,y:Math.random()*h,z:Math.random()*w}));
+  // For mobile, shrink radius & planet size if needed
+  const isMobile = w < 600 || h < 600;
   const centerX = w/2, centerY = h/2;
-  const radius = Math.min(w,h)/2.5;
+  const radius = isMobile ? Math.min(w,h)/2.6 : Math.min(w,h)/2.2;
+  const planetR = isMobile ? 19 : 26;
   planets = cycles.map((cy,i)=>{
     const angle = (2*Math.PI*i)/cycles.length - Math.PI/2;
     const pxLoc = centerX + Math.cos(angle)*radius;
@@ -141,7 +153,7 @@ function resize(){
       name: cy,
       x: pxLoc,
       y: pyLoc,
-      r: 26,
+      r: planetR,
       clr: `hsl(${120+10*i},100%,62%)`
     };
   });
@@ -163,7 +175,7 @@ function drawStars(){
 }
 drawStars();
 
-// --- Draw Planets (static) ---
+// --- Draw Planets (static, always visible) ---
 function drawPlanets(){
   px.clearRect(0,0,w,h);
   for(const planet of planets){
@@ -175,24 +187,24 @@ function drawPlanets(){
     px.lineWidth = 2;
     px.stroke();
     px.fillStyle=planet.clr+"99";
-    px.globalAlpha=0.85;
+    px.globalAlpha=0.84;
     px.beginPath();
     px.arc(planet.x,planet.y,planet.r-1,0,Math.PI*2);
     px.fill();
     px.globalAlpha=1;
     // Draw planet icon
-    px.font="bold 16px Courier New";
+    px.font="bold "+(planet.r+2)+"px Courier New";
     px.fillStyle="#00ff7f";
     px.textAlign="center";
     px.textBaseline="middle";
     px.shadowBlur = 0;
     px.fillText("📘",planet.x,planet.y+2);
-    // Draw cycle name below planet
-    px.font="bold 13px Courier New";
+    // Draw cycle name below planet (smaller font on mobile)
+    px.font="bold "+(planet.r > 22 ? 13 : 10)+"px Courier New";
     px.fillStyle="#00ffbf";
     px.textAlign="center";
     px.textBaseline="top";
-    px.fillText(planet.name, planet.x, planet.y+planet.r+5);
+    px.fillText(planet.name, planet.x, planet.y+planet.r+6);
     px.restore();
   }
 }
@@ -219,7 +231,7 @@ window.addEventListener('keydown', function(e){
   }
 });
 
-// --- Click Planets ---
+// --- Click Planets (works for mobile touch too) ---
 p.addEventListener('click',e=>{
   const rect=p.getBoundingClientRect();
   const mx=e.clientX-rect.left, my=e.clientY-rect.top;
@@ -231,6 +243,20 @@ p.addEventListener('click',e=>{
     }
   }
 });
+// Touch support for mobile browsers
+p.addEventListener('touchstart',e=>{
+  const rect=p.getBoundingClientRect();
+  const touch = e.touches[0];
+  const mx=touch.clientX-rect.left, my=touch.clientY-rect.top;
+  for(const planet of planets){
+    const dx=mx-planet.x, dy=my-planet.y;
+    if(Math.sqrt(dx*dx+dy*dy)<planet.r){
+      openCycle(planet.name);
+      return;
+    }
+  }
+});
+
 </script>
 </body>
 </html>
