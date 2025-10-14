@@ -1,0 +1,39 @@
+## 📘 **Book 21 — *Algebraic Curvature and Derived Stacks: The Geometry of the Thermodynamic Plenum***
+
+### **Abstract**
+
+Book 21 constructs the **derived geometric foundation** of RSVP theory.
+It defines the plenum’s field configuration space as a **derived stack** equipped with a cotangent complex encoding both entropy gradients and curvature tensors.
+Einstein’s spacetime curvature is replaced by *thermodynamic curvature*, a measure of how smoothly energy and meaning distribute through the plenum.
+The derived structure naturally unifies algebraic (operator) and geometric (field) viewpoints, providing the precise setting in which the rest of RSVP Field Theory unfolds.
+
+---
+
+### **Outline**
+
+**Part I – Foundations of Derived Geometry**
+
+1. **Manifolds to Stacks:** recall smooth stacks and sheaves of fields.
+2. **Cotangent Complex:** define (L_{\mathcal{P}}) for the plenum stack (\mathcal{P}).
+3. **Derived Intersection:** explain why curvature arises as derived fibre product of scalar and vector components.
+
+**Part II – Thermodynamic Curvature**
+
+1. Define curvature 2-form (R=d\omega+\omega\wedge\omega).
+2. Re-express (R) as entropy Laplacian: (R=\Delta S, g^{-1}).
+3. Show invariance under diffeomorphism of entropy flows.
+
+**Part III – Shifted Symplectic Structure**
+
+1. Construct (-1)-shifted symplectic form (\omega_{RSVP}).
+2. Derived Poisson bracket: ({F,G}=\langle \delta F, \omega^{-1}\delta G\rangle).
+3. Prove closure (d\omega_{RSVP}=0) → thermodynamic consistency.
+
+**Part IV – Applications**
+
+1. Field equations as derived Euler–Lagrange conditions.
+2. Relation to geometric entropy flow (Book 8).
+3. Visualization: plenum curvature fields as derived diagrams.
+
+**Appendices:**
+Cotangent complex computations; example derived intersections; reflective note *“Curvature is the Differential of Care.”*
