@@ -1,0 +1,152 @@
+## 📘 **Book 1 – Algebraic Curvature: The Commutator Geometry of Entropic Descent**
+
+### **Abstract**
+
+This book inaugurates the *Zero Day Exploits* series by developing the algebraic foundations of the Relativistic Scalar–Vector Plenum (RSVP).
+It replaces metric curvature with **commutator curvature**—the infinitesimal misalignment between scalar potential (Φ), vector flow (𝒗), and entropy (S).
+The algebra is continuous, not discrete: every operation represents a smooth deformation in the plenum’s informational density.
+Through Lie, graded, and BV algebras, the text reveals how **non-commutation gives rise to persistence, teleology, and ethical curvature**.
+Meaning, desire, and gravity emerge as algebraic defects in an otherwise symmetric manifold.
+
+---
+
+## 🧭 **Outline**
+
+### **Front Matter**
+
+* **Preface:** Origins of the RSVP algebra; why curvature precedes geometry.
+* **Diagrammatic Map:** Relating Φ–𝒗–S fields to algebraic operators.
+* **Reading Note:** The book may be read as both mathematical treatise and philosophical initiation.
+
+---
+
+### **Part I – Foundations of Commutator Geometry**
+
+#### **Chapter 1 – From Differential Fields to Lie Algebras**
+
+1. Definition of RSVP fields Φ, 𝒗, S.
+2. Lie derivatives as field evolution operators.
+3. Construction of the RSVP commutator
+   [
+   [\Phi,S] = \mathcal{L}*{\boldsymbol{\mathcal{v}}}(\Phi) - \mathcal{L}*{\boldsymbol{\mathcal{v}}}(S)
+   ]
+   and interpretation as thermodynamic curvature.
+4. Example: entropy gradients as non-Abelian rotations in information space.
+5. Diagram: curvature tensor ↔ commutator triangle.
+
+#### **Chapter 2 – Thermodynamic Curvature and Invariants**
+
+1. Definition of algebraic curvature form (K = [\Phi,S]).
+2. Trace and determinant as measures of energy storage.
+3. Commutation identity analogous to Bianchi identity.
+4. Conditions for flatness ((K=0)) and their interpretation as perfect smoothness.
+5. Derivation of entropy production rate from Jacobi identity failure.
+
+---
+
+### **Part II – Entropy as Ideal, Negentropy as Quotient**
+
+#### **Chapter 3 – The Ring of Field Interactions**
+
+1. Definition of the plenum ring (\mathcal{R} = \langle \Phi, \mathcal{v}, S \rangle).
+2. Product laws for field composition and their physical meaning.
+3. Local vs. global commutativity: why order matters in entropy transfer.
+
+#### **Chapter 4 – Entropy Ideals and Negentropic Spectra**
+
+1. Definition of the maximal ideal (\mathfrak{m}_S).
+2. Quotient ring (\mathcal{R}/\mathfrak{m}_S) and the space of negentropic invariants.
+3. Geometric interpretation of Spec (\mathcal{R}) as the entropy spectrum of the universe.
+4. Ethical reading: ideals as limits of care—what cannot be violated without dissolution.
+
+---
+
+### **Part III – Symmetry Breaking and Teleological Ascent**
+
+#### **Chapter 5 – Algebraic Symmetry and Its Violations**
+
+1. Symmetric commutation as pure equilibrium.
+2. Broken commutation as the origin of directionality and causation.
+3. Teleological differential (d_{\text{teleo}}) on graded Lie algebra (\mathfrak{g}_{\mathrm{RSVP}}).
+4. Diagram: how ethical gradients appear as graded commutator terms.
+
+#### **Chapter 6 – Retrocausality and Reversibility**
+
+1. The reversible plenum and the appearance of time.
+2. Local non-reversibility as a necessary condition for learning.
+3. Compatibility of teleology with entropy monotonicity.
+4. Numerical example: simulation of a retrocausal oscillator with stable entropy growth.
+
+---
+
+### **Part IV – Cohomology and Conservation of Meaning**
+
+#### **Chapter 7 – The RSVP Cochain Complex**
+
+1. Definition of differential operator (d_\mathrm{R}).
+2. (d_\mathrm{R}^2=0) and meaning as closed but non-exact form.
+3. Relationship between homological dimension and semantic depth.
+4. Conservation theorem: (\frac{d}{dt}H^k_\mathrm{RSVP}=0) under smooth smoothing.
+
+#### **Chapter 8 – Topological Persistence and Ethical Integrity**
+
+1. Persistence diagrams for semantic structures.
+2. Meaning decay as homology collapse.
+3. Example: interpreting moral decision spaces as homological filtrations.
+
+---
+
+### **Part V – The BV Algebra of Desire**
+
+#### **Chapter 9 – Batalin–Vilkovisky Structure on the Plenum**
+
+1. Extension of (\mathcal{R}) to a BV algebra with antifields.
+2. Definition of BV bracket ({S,S}=0) as classical master equation.
+3. Antifield interpretation of desire: restoration operator for entropy imbalance.
+4. Ethical and cognitive applications of BV symmetry.
+
+#### **Chapter 10 – Quantization Without Discretization**
+
+1. Path integral form as continuous thermodynamic ensemble.
+2. Derived measure over possible futures.
+3. Correspondence with Unistochastic–RSVP formulation.
+4. Example: BV regularization as stability criterion for societal learning.
+
+---
+
+### **Part VI – Synthesis: Algebra as the Grammar of Persistence**
+
+#### **Chapter 11 – Commutator Ethics**
+
+1. Re-statement of curvature as failure of perfect care.
+2. Relation to teleodynamic manifolds (Book 7).
+3. From commutator algebra to derived geometry.
+
+#### **Chapter 12 – The Conservation of Care**
+
+1. Integrative equation:
+   [
+   \frac{d}{dt}(\Phi,S) + [\Phi,S] = 0
+   ]
+   as universal RSVP continuity law.
+2. Ethical and empirical interpretation: governance as curvature balancing.
+3. Outlook toward Book 2: Differential geometry as emergent algebraic shadow.
+
+---
+
+### **Appendices**
+
+* **Appendix A:** Notation and Symbolic Conventions.
+* **Appendix B:** Sample Simulations of Commutator Dynamics.
+* **Appendix C:** Proofs of Jacobi and Cohomology Identities.
+* **Appendix D:** Ethical Commentary – “Every Gradient is a Promise.”
+
+---
+
+### **Bot Instruction Summary (for automated drafting)**
+
+* Preserve continuous plenum ontology throughout.
+* Maintain entropy direction (Entropy ↑).
+* Cross-validate each equation with scalar–vector–entropy mapping.
+* Include 1 empirical analogy and 1 ethical reflection per chapter.
+* Output in LaTeX sections ready for integration into `book_I_algebraic/`.
