@@ -24,9 +24,11 @@ paracosm/
 ├── taglines/
 │   └── Zero_Day_Exploits_Taglines.md
 ├── manuscripts/
-│   └── [placeholders for individual book manuscripts]
+│   └── Working frafts
 ├── supplementary/
-│   └── [placeholders for derivations, diagrams, etc.]
+│   └── Notebooks, derivations, diagrams, etc.
+├── background/
+│   └── Research
 └── README.md
 ```
 
