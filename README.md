@@ -24,7 +24,7 @@ paracosm/
 ├── taglines/
 │   └── Zero_Day_Exploits_Taglines.md
 ├── manuscripts/
-│   └── Working frafts
+│   └── Working drafts
 ├── supplementary/
 │   └── Notebooks, derivations, diagrams, etc.
 ├── background/
