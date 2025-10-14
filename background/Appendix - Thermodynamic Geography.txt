@@ -1,0 +1,91 @@
+Appendix A: Methods for Empirical Estimation of Thermody-
+namic Geography
+This appendix details the empirical estimation of the Relativistic Scalar-Vector Plenum (RSVP)
+fields—scalar potential (Φ), vector flow (⊑), and entropy (S)—and the curvature control mech-
+anisms via recursive futarchy, addressing the measurement and steering of thermodynamic
+geography.
+A.1 Estimating RSVP Fields
+The RSVP fields are mapped to observable proxies in economic and social systems, enabling
+curvature quantification across spatial and temporal scales.
+• Scalar Potential (Φ(x, t)): Informational Density
+- Proxies: GDP per capita, capital stock, human capital indices, patent filings, R&D
+expenditure, nighttime light intensity (VIIRS), broadband penetration, citation density,
+venture capital flows.
+- Estimation: Aggregate proxies into a scalar field via weighted summation:
+Φ(x, t) =
+∑
+i
+wipi(x, t),
+where pi are normalized proxies and wi are weights (e.g., PCA loadings or expert priors).
+Compute gradients (∇Φ) and Laplacian (∆Φ) using finite differences on a spatial grid
+(e.g., 1 km2 cells from OpenStreetMap).
+• Vector Flow (⊑(x, t)): Exchange Dynamics
+- Proxies: Trade flows (UN Comtrade), interbank transactions, shipping tracks (AIS),
+flight origin-destination matrices, migration flows, mobile call-detail records, internet
+peering traﬀic, coauthorship networks.
+- Estimation: Construct a vector field from flow matrices:
+⊑(x, t) =
+∑
+j
+fxj(t) · xj −x
+|xj −x|,
+where fxj is the flow magnitude from location xj to x. Compute divergence (∇·⊑) and
+curl (∇× ⊑) for sources/sinks and circulation.
+• Entropy (S(x, t)): Volatility and Diversity
+- Proxies: Output/price volatility, forecast error variance, sectoral diversity (Shannon
+entropy over NAICS codes), sentiment entropy (from X posts or media), job transition
+entropy, innovation diversity (patent topic entropy).
+- Estimation: Compute local entropy:
+S(x, t) = −
+∑
+i
+pi(x, t) log pi(x, t),
+for distributions pi (e.g., sector shares, sentiment categories). Estimate diffusion (∆S)
+and production rates ( ˙S) via temporal differencing.
+1
+
+A.2 Curvature Metrics
+Key curvature invariants quantify the morphology of value:
+• Gaussian Curvature of Φ: K =
+det(∇2Φ)
+(1+|∇Φ|2)2 , identifying hubs or bottlenecks.
+• Flow Divergence: ∇· ⊑, detecting sources/sinks of exchange.
+• Entropy Gradient Coupling: ∇Φ · ∇S, measuring innovation driven by capacity gra-
+dients.
+These are computed on a discretized grid using finite-element methods, with data sourced from
+public repositories (e.g., World Bank, OpenAlex).
+A.3 Recursive Futarchy for Curvature Control
+Recursive futarchy adjusts field dynamics via a predictive tensor Tij, aggregated from market
+forecasts.
+• Tensor Construction:
+Tij =
+∑
+k
+wkEpk [∂iℓk∂jℓk] ,
+ℓk = log pk(outcome | state),
+where pk are market-implied probabilities, wk ∝(skill×liquidity). Use Ensemble Kalman
+Filtering (EnKF) for real-time updates, with eigenvalue clipping to prevent runaway cur-
+vature.
+• Coeﬀicient Adjustment:
+λΦ(t + 1) = λΦ(t) + ϵΦTr(T),
+η⊑(t + 1) = η⊑(t) −ϵ⊑∇· T,
+αS(t + 1) = αS(t) + ϵS⟨∇Φ · ∇S⟩.
+These modulate capacity diffusion, flow friction, and entropy exploration, respectively.
+• Feedback Loop: Implement via Model Predictive Control (MPC):
+u(t) = arg min
+u L(u, T)
+s.t.
+0 < ˙Scivic(u) < ˙Scrit,
+where L balances utility and resilience, and ˙Scrit is calibrated from historical near-failures.
+A.4 Data Sources
+Field
+Sources
+Φ
+World Bank WDI, VIIRS night lights, OpenAlex citations, USPTO patents
+⊑
+UN Comtrade, AIS shipping, mobile CDR, internet peering (CAIDA)
+S
+FRED volatility, X sentiment, NAICS diversity, job transition data
+Table 1: Data sources for RSVP field estimation.
+2
+
