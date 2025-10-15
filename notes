@@ -1,0 +1,76 @@
+High level overviews by granite3.2:8b
+
+protocols was written with 80,000 token context window
+
+incomplete-protocols with 30,000 tokens
+
+command OLLAMA_CONTEXT_LENGTH=80000 ollama serve 
+
+Hardware: nvidia-smi
+
+Wed Oct 15 15:55:25 2025
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.124.04             Driver Version: 572.61         CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3060        On  |   00000000:01:00.0  On |                  N/A |
+|  0%   45C    P3             40W /  170W |    9534MiB /  12288MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A             179      G   /Xwayland                             N/A      |
+|    0   N/A  N/A           11576      C   /ollama                               N/A      |
+|    0   N/A  N/A           11894      C   /ollama                               N/A      |
++-----------------------------------------------------------------------------------------+
+
+load_tensors: loading model tensors, this can take a while... (mmap = false)
+ggml_cuda_host_malloc: failed to allocate 4228.90 MiB of pinned memory: out of memory
+load_tensors: offloading 4 repeating layers to GPU
+load_tensors: offloaded 4/41 layers to GPU
+load_tensors:          CPU model buffer size =  4228.90 MiB
+load_tensors:        CUDA0 model buffer size =   483.31 MiB
+load_tensors:          CPU model buffer size =   157.51 MiB
+llama_context: constructing llama_context
+llama_context: n_seq_max     = 1
+llama_context: n_ctx         = 80000
+llama_context: n_ctx_per_seq = 80000
+llama_context: n_batch       = 512
+llama_context: n_ubatch      = 512
+llama_context: causal_attn   = 1
+llama_context: flash_attn    = 0
+llama_context: freq_base     = 10000000.0
+llama_context: freq_scale    = 1
+llama_context: n_ctx_per_seq (80000) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
+llama_context:        CPU  output buffer size =     0.20 MiB
+llama_kv_cache_unified: kv_size = 80000, type_k = 'f16', type_v = 'f16', n_layer = 40, can_shift = 1, padding = 32
+llama_kv_cache_unified:      CUDA0 KV buffer size =  1250.00 MiB
+llama_kv_cache_unified:        CPU KV buffer size = 11250.00 MiB
+llama_kv_cache_unified: KV self size  = 12500.00 MiB, K (f16): 6250.00 MiB, V (f16): 6250.00 MiB
+llama_context:      CUDA0 compute buffer size =  5493.75 MiB
+llama_context:  CUDA_Host compute buffer size =   164.26 MiB
+llama_context: graph nodes  = 1448
+llama_context: graph splits = 400 (with bs=512), 3 (with bs=1)
+time=2025-10-15T15:14:04.491-03:00 level=INFO source=server.go:637 msg="llama runner started in 20.95 seconds"
+[GIN] 2025/10/15 - 15:14:04 | 200 | 21.559762467s |       127.0.0.1 | POST     "/api/generate"
+[GIN] 2025/10/15 - 15:15:33 | 200 |         1m26s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/10/15 - 15:15:46 | 200 |    2.991674ms |       127.0.0.1 | HEAD     "/"
+[GIN] 2025/10/15 - 15:15:46 | 200 |  113.666885ms |       127.0.0.1 | POST     "/api/show"
+[GIN] 2025/10/15 - 15:19:17 | 200 |         3m35s |       127.0.0.1 | POST     "/api/generate"
+[GIN] 2025/10/15 - 15:19:17 | 200 |      25.474µs |       127.0.0.1 | HEAD     "/"
+[GIN] 2025/10/15 - 15:19:17 | 200 |   25.211228ms |       127.0.0.1 | POST     "/api/show"
+[GIN] 2025/10/15 - 15:22:48 | 200 |         3m38s |       127.0.0.1 | POST     "/api/generate"
+[GIN] 2025/10/15 - 15:22:48 | 200 |      25.334µs |       127.0.0.1 | HEAD     "/"
+[GIN] 2025/10/15 - 15:22:48 | 200 |   21.771453ms |       127.0.0.1 | POST     "/api/show"
+^[[C[GIN] 2025/10/15 - 16:22:16 | 200 |    3.342047ms |       127.0.0.1 | HEAD     "/"
+[GIN] 2025/10/15 - 16:22:16 | 200 |   93.175731ms |       127.0.0.1 | POST     "/api/show"
+[GIN] 2025/10/15 - 16:24:36 | 200 |       1h3m57s |       127.0.0.1 | POST     "/api/generate"
+[GIN] 2025/10/15 - 16:24:36 | 200 |      41.542µs |       127.0.0.1 | HEAD     "/"
+[GIN] 2025/10/15 - 16:24:36 | 200 |   23.735132ms |       127.0.0.1 | POST     "/api/show"

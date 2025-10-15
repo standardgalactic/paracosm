@@ -1,0 +1,782 @@
+WEBVTT
+
+00:00.000 --> 00:04.660
+Welcome to the Deep Dive. Today we're tackling a, well, a really big question, actually.
+
+00:04.820 --> 00:11.920
+It stretches from way back, maybe 15,000 years ago, right up to cutting-edge physics in AI.
+
+00:12.600 --> 00:19.060
+Yeah, it's about how complex systems manage to keep things, you know, orderly, how they enforce cooperation.
+
+00:19.340 --> 00:25.860
+Exactly. And we've got this amazing stack of sources, ancient anthropology, supermodern AI algorithms,
+
+00:26.060 --> 00:29.100
+even some pretty wild theoretical cosmology.
+
+00:29.100 --> 00:33.540
+Our mission, really, is to look for the common threads, you know, the universal tricks.
+
+00:33.780 --> 00:44.140
+Because any organized system, whether it's people or information networks, fights against this drift towards, well, chaos, selfishness, entropy.
+
+00:44.380 --> 00:50.680
+We want to figure out the core strategies, the social ones and the algorithmic ones that systems use to maintain that internal order.
+
+00:50.720 --> 00:53.000
+Right, to push back against that constant pull.
+
+00:53.160 --> 00:57.120
+And the thing that jumped out, it's almost poetic, is this convergence.
+
+00:57.120 --> 01:02.920
+The ways ancient human groups stopped potential dictators, these upstarts, they called them,
+
+01:03.320 --> 01:07.860
+it weirdly mirrors how modern AI systems handle data complexity and privacy.
+
+01:08.060 --> 01:15.500
+It's a deep parallel, isn't it? Managing a prehistoric bully and managing, like, data leakage in code today.
+
+01:15.500 --> 01:19.760
+It really is. So let's start way back with the social side.
+
+01:20.480 --> 01:27.820
+Early human societies, the nomadic hunter-gatherers before, oh, 12,000 years ago, we call them egalitarian.
+
+01:28.200 --> 01:33.720
+But, and this is key from the sources, it wasn't just that they lacked hierarchy. It wasn't passive.
+
+01:34.120 --> 01:39.360
+No, they were actively enforcing something anthropologists call a reverse dominance hierarchy.
+
+01:39.360 --> 01:45.240
+Exactly. We tend to think, oh, no chiefs, so no power. But the power flowed the other way.
+
+01:45.460 --> 01:45.880
+How so?
+
+01:46.240 --> 01:54.040
+The group, the rank and file, the moral community, they collectively kept the ambitious individuals in check.
+
+01:54.220 --> 01:58.400
+The strong ones, the potential bullies, almost always men in these accounts.
+
+01:58.580 --> 01:59.700
+They had to keep doing it, right?
+
+01:59.720 --> 01:59.860
+Yeah.
+
+01:59.900 --> 02:01.180
+It required constant effort.
+
+02:01.340 --> 02:07.580
+Constant vigilance. The moment the group slacked off, someone would try to take over and boom, equality gone.
+
+02:07.580 --> 02:09.020
+And despotism rises.
+
+02:09.380 --> 02:11.980
+So what tools did they use? Sounds pretty sophisticated.
+
+02:12.220 --> 02:17.760
+It started subtle. Psychological pressure. One of the best examples is leveling by ridicule.
+
+02:17.940 --> 02:20.820
+Ah, yeah, the dung practice. Tell us about that.
+
+02:21.260 --> 02:29.720
+Right. If a guy got too big for his boots, started bragging about a hunt, or acting bossy, they wouldn't necessarily confront him directly at first.
+
+02:29.780 --> 02:30.600
+They'd just mock him.
+
+02:30.600 --> 02:34.760
+Yeah, they'd call him big chief, you know, sarcastically.
+
+02:34.760 --> 02:40.240
+It cuts the ego down, reinforces the group norm. Simple, but effective.
+
+02:41.260 --> 02:47.360
+Cheap social control. I like it. But what if that wasn't enough? If the big chief didn't take the hint?
+
+02:47.480 --> 02:54.140
+Then things escalated. Harsher stuff. Social isolation, shunning, ostracism.
+
+02:54.300 --> 02:56.260
+It sounds serious in that kind of environment.
+
+02:56.260 --> 03:06.360
+Extremely. Look at the Utku Estimos. If someone acted really erratically, emotionally volatile, breaking cultural norms, the community wouldn't argue.
+
+03:06.740 --> 03:11.160
+They'd just treat that person like a difficult child. Ignore them. Refuse to engage.
+
+03:11.440 --> 03:17.740
+Being ignored in a small group that depends on cooperation. That's basically an existential threat.
+
+03:17.740 --> 03:22.780
+Precisely. It leverages the social fabric itself as the enforcement mechanism.
+
+03:23.200 --> 03:34.900
+Okay, but this raises a bit of a tricky question for me. If maintaining equality means constantly suppressing the most ambitious or maybe even the most effective people, doesn't that kind of stifle high achievers?
+
+03:35.400 --> 03:41.000
+Are you just trading one potential tyrant for, like, the tyranny of the group holding everyone down?
+
+03:41.000 --> 03:49.440
+That's the core tension, absolutely. The sources suggest the focus wasn't on suppressing talent, but on suppressing domination. The ego.
+
+03:49.820 --> 03:55.960
+Ah, okay. So, skill was fine. But using skill to demand power wasn't.
+
+03:56.020 --> 04:05.020
+Exactly. A great hunter who shared generously. Praised. A great hunter who started ordering people around. Neutralized.
+
+04:05.020 --> 04:11.340
+It was about preserving liberty, even if it meant maybe capping that absolute peak of individual ambition.
+
+04:11.800 --> 04:13.520
+Neutralized. That sounds ominous.
+
+04:14.260 --> 04:22.840
+What happened when ridicule and shunning failed against someone really dangerous, like a repeat murderer or a shaman abusing their power?
+
+04:22.960 --> 04:26.960
+They went to the ultimate sanction. Execution. Assassination, basically.
+
+04:27.180 --> 04:29.640
+Wow. The group who just decided to kill someone.
+
+04:29.640 --> 04:35.740
+Yes, but the way they did it is fascinating. The data shows it was often a calculated political act.
+
+04:35.840 --> 04:36.420
+How so?
+
+04:36.540 --> 04:40.940
+When an upstart became a real threat to life or liberty, the group would agree on execution.
+
+04:41.480 --> 04:46.880
+But then, they'd often delegate the actual task to a close relative of the person being executed.
+
+04:47.260 --> 04:48.640
+A relative? Why?
+
+04:48.920 --> 04:55.340
+To stop a cycle of revenge. If the whole group did it, the deviant's kin might seek vengeance against anyone.
+
+04:55.340 --> 05:03.500
+By having a relative do it, it contained the fallout politically, kept it within the family, reducing the risk to the wider group.
+
+05:04.080 --> 05:06.080
+Genius in a grim way.
+
+05:06.680 --> 05:07.400
+Grim is right.
+
+05:07.920 --> 05:09.020
+So, wrapping up this part.
+
+05:10.040 --> 05:11.980
+Egalitarianism wasn't a default state.
+
+05:12.340 --> 05:20.220
+It was actively built and maintained by the community, constantly pushing back against individual ego and the drive to dominate.
+
+05:20.720 --> 05:22.120
+Bottom-up suppression.
+
+05:22.120 --> 05:28.800
+A moral community enforcing its ethos, constantly fighting that gravitational pull of selfishness.
+
+05:28.920 --> 05:30.900
+Okay. Let's make that huge jump now.
+
+05:31.100 --> 05:34.800
+From, you know, tribal politics to massive digital network.
+
+05:34.840 --> 05:37.420
+Right. From political disorder to informational disorder.
+
+05:37.420 --> 05:40.760
+We've got millions, maybe billions of devices, phone sensors, whatever.
+
+05:40.980 --> 05:42.360
+Each has its own little bit of data.
+
+05:42.740 --> 05:44.360
+It's private. It's unique. It's messy.
+
+05:44.360 --> 05:53.600
+How do you get collective knowledge, a better overall AI model, from all that fragmented stuff without violating privacy?
+
+05:53.600 --> 05:56.260
+It's the same fundamental problem, isn't it?
+
+05:56.480 --> 06:06.520
+Integrating unique sort of selfish signals without letting any one signal dominate or letting the entity collecting them become too powerful.
+
+06:06.520 --> 06:09.260
+So, what's the answer in the tech world?
+
+06:09.700 --> 06:12.340
+A key algorithm is called Federated Averaging.
+
+06:12.900 --> 06:13.980
+FedAvG for short.
+
+06:14.240 --> 06:15.520
+Federated Averaging. Okay.
+
+06:15.760 --> 06:17.980
+The structure mirrors the problem.
+
+06:18.460 --> 06:25.100
+Your phone, the client, does some initial AI training using only your data, locally.
+
+06:25.440 --> 06:29.420
+That's a step called Stochastic Gradient Descent, or SGD.
+
+06:29.420 --> 06:31.800
+So, the learning happens on my device first.
+
+06:31.940 --> 06:32.380
+Exactly.
+
+06:32.980 --> 06:38.820
+Then, periodically, not constantly, a central server pulls together the results of that local training.
+
+06:38.920 --> 06:42.780
+Not the data itself, just the mathematical model updates from many devices.
+
+06:43.040 --> 06:44.200
+And it averages them out.
+
+06:44.500 --> 06:44.840
+Right.
+
+06:45.160 --> 06:51.320
+It performs model averaging to create an improved, smarter, central model, which can then be sent back out.
+
+06:51.840 --> 06:55.040
+Crucially, your raw, private data never leaves your phone.
+
+06:55.160 --> 06:56.980
+Never leaves the device. That's critical.
+
+06:56.980 --> 07:00.220
+And you mentioned real-world data is messy.
+
+07:00.400 --> 07:02.880
+You used the term non-ID. Can you break that down?
+
+07:03.020 --> 07:06.060
+Yeah. Non-ID just means non-identically distributed.
+
+07:06.480 --> 07:09.340
+Fancy term for saying everyone's data is different.
+
+07:09.700 --> 07:13.700
+Like, your keyboard predictions, the way you type, the words you use, your emojis.
+
+07:14.180 --> 07:15.600
+That's your data distribution.
+
+07:16.120 --> 07:18.920
+It's wildly different from mine and from everyone else's.
+
+07:19.680 --> 07:25.280
+FedAv, it has to work, even when it's aggregating all these unique, unbalanced data sets.
+
+07:25.280 --> 07:30.800
+Okay, so it handles the messiness. What about speed? Does this distributed thing slow it down?
+
+07:31.340 --> 07:35.100
+Actually, the opposite. That's one of the big wins highlighted in the sources.
+
+07:35.860 --> 07:42.320
+Compared to trying to centralize all the data, which is often impossible anyway, this is much more efficient.
+
+07:42.540 --> 07:42.740
+Ow.
+
+07:42.740 --> 07:46.820
+By letting your device do more work locally before talking to the server.
+
+07:47.260 --> 07:51.400
+It does multiple rounds of learning, what we call local APOCs, using E1.
+
+07:51.680 --> 07:55.000
+This cuts down massively on the communication needed.
+
+07:55.200 --> 07:58.780
+Ah, because sending data back and forth is the bottleneck.
+
+07:58.920 --> 08:00.620
+Exactly. That's the expensive part.
+
+08:00.620 --> 08:10.660
+The sources mention speed-ups of, like, up to 95 times faster for complex tasks, like training language models on this kind of messy, unbalanced, non-IID data.
+
+08:10.880 --> 08:13.680
+It stops the system from choking on communication.
+
+08:14.220 --> 08:17.600
+Okay, this is where that reverse dominance analogy really clicks for me.
+
+08:18.120 --> 08:22.680
+The tribe had ways to stop the upstart from taking over politically.
+
+08:22.680 --> 08:33.960
+What stops the central server here from becoming an informational despot, from leaking or misusing the data it does get, even if it's just model updates?
+
+08:34.100 --> 08:36.480
+Right. You need constraints on the center, too.
+
+08:36.600 --> 08:38.300
+It's a layered defense.
+
+08:39.060 --> 08:44.800
+Layer one, the absolute rule we mentioned, raw data never gets sent, only the updates.
+
+08:45.020 --> 08:45.280
+Okay.
+
+08:45.280 --> 08:50.560
+Layer two, something called the focus collection principle, those model updates.
+
+08:50.560 --> 08:55.700
+They're only kept temporarily by the server, just long enough to be averaged, then they're destroyed.
+
+08:56.140 --> 08:58.800
+No long-term storage of individual updates.
+
+08:59.140 --> 09:05.120
+But couldn't clever analysis of even those temporary updates potentially reveal something about the original data?
+
+09:05.440 --> 09:07.380
+Like, reverse engineer it.
+
+09:07.440 --> 09:08.060
+It's a risk.
+
+09:08.300 --> 09:10.640
+And that's where the proactive constraints come in.
+
+09:10.740 --> 09:14.620
+This is like the tribe's ridicule actively blurring the individual signal.
+
+09:14.800 --> 09:16.840
+It's called differential privacy, or DP.
+
+09:17.180 --> 09:18.080
+Differential privacy.
+
+09:18.480 --> 09:19.200
+Sounds important.
+
+09:19.200 --> 09:20.020
+It is.
+
+09:20.020 --> 09:34.900
+Developers add specific techniques, things like clipping the updates, limiting how much influence any single update can have, and adding carefully calibrated mathematical noise, Gaussian noise, before the server averages them.
+
+09:35.040 --> 09:36.860
+So you're deliberately adding static.
+
+09:37.360 --> 09:38.220
+Kind of, yeah.
+
+09:38.440 --> 09:38.660
+Yeah.
+
+09:38.760 --> 09:39.820
+Controlled static.
+
+09:39.820 --> 09:53.780
+Enough noise so the central server can't definitively trace an update back to a specific person or learn their specific data point, but not so much noise that you can't still learn the overall patterns from the average.
+
+09:54.140 --> 09:55.320
+The collective learns.
+
+09:55.560 --> 09:57.160
+The individual stays hidden.
+
+09:57.380 --> 09:58.640
+The fingerprint is blurred.
+
+09:59.080 --> 09:59.560
+Precisely.
+
+09:59.640 --> 10:00.920
+And this isn't just theory, right?
+
+10:00.940 --> 10:03.060
+It's being used in some pretty high-stakes areas.
+
+10:03.060 --> 10:03.760
+Oh, absolutely.
+
+10:03.960 --> 10:05.980
+We're way beyond just predicting your next word.
+
+10:06.360 --> 10:08.620
+Look at a model called EpiAgent.
+
+10:09.000 --> 10:13.940
+Huge scale trained on epigenetic data from 5 million cells.
+
+10:14.420 --> 10:16.320
+35 billion data points.
+
+10:16.520 --> 10:16.860
+Wow.
+
+10:16.980 --> 10:26.840
+Using these distributed privacy-first methods, it got like a 25% performance boost on certain tasks compared to older centralized models.
+
+10:27.060 --> 10:28.120
+Or think about MedPol.
+
+10:28.120 --> 10:29.040
+Medical AI.
+
+10:29.600 --> 10:29.840
+Yeah.
+
+10:30.680 --> 10:33.440
+A large language model fine-tuned for medicine.
+
+10:34.420 --> 10:41.660
+They used careful tuning techniques, which are related to this idea of controlled learning, to align it with scientific consensus.
+
+10:42.520 --> 10:46.960
+Its accuracy jumped from about 62% to nearly 93%.
+
+10:46.960 --> 10:49.280
+93% agreement with medical knowledge.
+
+10:49.360 --> 10:50.000
+That's huge.
+
+10:50.140 --> 10:50.680
+It is.
+
+10:50.880 --> 10:54.360
+And in our context, that 93% shows the system's coherence.
+
+10:54.360 --> 11:01.540
+It shows that the mechanisms designed to check the noise, the outliers, the informational selfishness, they're working.
+
+11:02.020 --> 11:05.740
+The system converges on the reliable collective truth.
+
+11:06.080 --> 11:06.100
+Okay.
+
+11:06.200 --> 11:07.060
+This is fascinating.
+
+11:07.860 --> 11:15.780
+We've got social rules in tribes and algorithms in AI seemingly doing the same job managing disorder, enabling cooperation.
+
+11:16.440 --> 11:20.540
+Does this point to something even deeper, like a universal principle of order?
+
+11:20.540 --> 11:24.200
+This is where we zoom out again into some pretty theoretical territory.
+
+11:24.540 --> 11:29.200
+There's a conceptual framework called the Relativistic Staler Vector Plenum, or RSVP.
+
+11:29.580 --> 11:30.140
+RSVP.
+
+11:30.260 --> 11:30.540
+Okay.
+
+11:30.660 --> 11:31.320
+Sounds complex.
+
+11:31.460 --> 11:39.920
+It is, but the core idea is to model how order and complexity emerge, whether in minds or maybe even the cosmos, using three interacting fields.
+
+11:40.260 --> 11:43.540
+It maps out stages of intelligence called the pi hierarchy.
+
+11:44.000 --> 11:44.660
+Three fields.
+
+11:45.300 --> 11:46.400
+Can we simplify them?
+
+11:46.980 --> 11:48.520
+What are they, conceptually?
+
+11:48.520 --> 11:49.000
+Okay.
+
+11:49.140 --> 11:51.160
+First, there's a scalar potential.
+
+11:51.860 --> 11:55.900
+Think of this as the system's capacity, how much information it can hold or process.
+
+11:56.420 --> 11:58.800
+It's a nedge entropic density.
+
+11:59.140 --> 12:00.980
+It's storage space for order, kind of?
+
+12:01.120 --> 12:01.620
+Sort of.
+
+12:01.780 --> 12:03.380
+Second, a vector flow.
+
+12:03.780 --> 12:04.880
+This is directed energy.
+
+12:05.100 --> 12:10.700
+Attention, how the system actually processes stuff, where it focuses its energy.
+
+12:10.780 --> 12:11.740
+Local processing current.
+
+12:11.800 --> 12:11.980
+Yeah.
+
+12:11.980 --> 12:14.080
+And third, there's entropy.
+
+12:14.540 --> 12:21.780
+That's the disorder, the uncertainty, the background noise that the system is constantly working against, the enemy of coherence.
+
+12:22.000 --> 12:24.480
+Capacity, attention, and disorder.
+
+12:24.740 --> 12:32.100
+So any intelligent system is basically trying to use its capacity and attention to manage or constrain the disorder.
+
+12:32.100 --> 12:36.740
+That's the essence of it, and complexity emerges in stages from that interaction.
+
+12:36.980 --> 12:37.720
+What are the stages?
+
+12:37.940 --> 12:40.820
+The first key stage is pi-2, adaptive attention.
+
+12:41.300 --> 12:52.600
+Simply being able to focus to pay attention is modeled as the system actively fighting entropy, using that vector flow, that directed energy, to filter out the noise and lock on to relevant information.
+
+12:53.400 --> 12:55.480
+Attention carves order out of chaos.
+
+12:55.480 --> 12:57.920
+Okay, focus counteracts noise.
+
+12:58.860 --> 13:00.200
+What about creativity?
+
+13:00.800 --> 13:03.060
+Where do new ideas come from in this model?
+
+13:03.320 --> 13:06.580
+That's pi-3, the creative or generative stage.
+
+13:07.180 --> 13:11.060
+A new idea, a spontaneous pattern, isn't just a smooth progression.
+
+13:11.400 --> 13:14.660
+It's modeled as a bifurcation, a sudden branching.
+
+13:15.020 --> 13:15.700
+A bifurcation?
+
+13:15.940 --> 13:16.160
+Yeah.
+
+13:16.280 --> 13:20.160
+It happens when the entropy, the disorder field, gets too high.
+
+13:20.540 --> 13:22.060
+It crosses a critical threshold.
+
+13:22.060 --> 13:33.840
+But instead of just collapsing into noise, the high uncertainty forces the system into a kind of phase transition, where multiple new, stable patterns or states can suddenly form.
+
+13:34.000 --> 13:41.720
+So intense uncertainty can actually trigger the emergence of new kinds of order, like a pressure cooker forcing crystallization.
+
+13:41.880 --> 13:42.840
+That's a great analogy.
+
+13:43.020 --> 13:46.020
+It reframes the aha moment thermodynamically.
+
+13:46.080 --> 13:46.440
+Wild.
+
+13:46.440 --> 13:53.320
+Okay, how does this connect back to our federated learning, the collective intelligence example, many agents working together?
+
+13:53.780 --> 13:57.460
+That falls under pi-4, cooperative or distributed intelligence.
+
+13:57.840 --> 14:04.800
+When multiple systems or agents synchronize, like in FedEvge, it happens through what the model calls cooperative flux.
+
+14:05.300 --> 14:09.620
+They act to minimize a shared energy functional, like a collective debt.
+
+14:09.820 --> 14:11.180
+To minimize energy cost.
+
+14:11.180 --> 14:11.780
+Right.
+
+14:12.160 --> 14:20.160
+And to reach that minimum energy state together, their individual entropy fields, their levels of uncertainty are forced to equalize.
+
+14:20.380 --> 14:23.580
+They have to get on the same page regarding what they know and don't know.
+
+14:24.140 --> 14:27.340
+That synchronization is the basis of collective coherence.
+
+14:27.580 --> 14:30.440
+Synchronization through shared entropy reduction.
+
+14:30.600 --> 14:31.020
+Got it.
+
+14:31.460 --> 14:32.440
+And the highest level.
+
+14:32.780 --> 14:33.500
+Pi-5.
+
+14:34.300 --> 14:36.300
+Reflexive or metacognitive intelligence.
+
+14:36.920 --> 14:39.380
+This is where the system starts modeling itself.
+
+14:39.380 --> 14:42.760
+It gauges its own internal state, its own uncertainty.
+
+14:43.260 --> 14:46.700
+It essentially knows what it knows and knows what it doesn't know.
+
+14:46.920 --> 14:49.900
+Self-awareness emerges from modeling its own uncertainty.
+
+14:50.300 --> 14:51.200
+That's the idea.
+
+14:51.380 --> 14:52.860
+The ultimate feedback loop.
+
+14:53.080 --> 14:54.760
+It's order observing itself.
+
+14:55.100 --> 15:00.800
+And just to ground this very abstract stuff, the sources mentioned a strategy game, Entropy's Edge.
+
+15:00.800 --> 15:04.160
+Yeah, apparently built using these RSVP concepts.
+
+15:04.600 --> 15:05.900
+Players aren't fighting wars.
+
+15:06.040 --> 15:14.580
+They're literally tuning thermodynamic asymmetry, manipulating game versions of capacity, attention, and disorder to achieve goals.
+
+15:14.780 --> 15:17.180
+It suggests these aren't just metaphors.
+
+15:17.560 --> 15:19.800
+They could be fundamental operating principles.
+
+15:20.340 --> 15:20.600
+Wow.
+
+15:20.860 --> 15:23.000
+Okay, so wrapping this deep dive up.
+
+15:23.160 --> 15:23.380
+Yeah.
+
+15:23.580 --> 15:27.080
+The big takeaway seems to be that order is never free.
+
+15:27.380 --> 15:28.340
+It's never the default.
+
+15:28.340 --> 15:31.540
+No, it has to be actively constructed and defended.
+
+15:31.820 --> 15:45.560
+Whether it's a human group using social sanctions or an AI network using privacy algorithms and synchronization rules, you have to constantly, proactively constrain disorder to get anything coherent or cooperative done.
+
+15:45.560 --> 15:49.320
+And that brings us to the final thought, the provocative connection we wanted to leave you with.
+
+15:49.380 --> 15:49.720
+Go on.
+
+15:50.440 --> 16:03.740
+For cooperation, for altruism, to even evolve in human groups, that internal pressure, individual self-interest, the egoistic signal, it had to be suppressed at the group level.
+
+16:03.920 --> 16:05.940
+Checked by those social sanctions we talked about.
+
+16:05.940 --> 16:06.860
+Like verse dominance.
+
+16:06.860 --> 16:09.060
+Now, compare that to federated learning.
+
+16:09.460 --> 16:19.280
+To make the collective model smarter and more accurate, the system has to actively curb the leakage of individual data, suppress the influence of noisy or selfish outliers.
+
+16:19.480 --> 16:20.380
+It's the same pattern.
+
+16:20.900 --> 16:24.240
+Suppressing the individual signal for the sake of the group's coherence.
+
+16:24.640 --> 16:25.140
+Exactly.
+
+16:25.140 --> 16:27.640
+So, the question for you, the listener, is this.
+
+16:28.460 --> 16:33.380
+Is that the fundamental mechanism for all collective intelligence, human or machine?
+
+16:34.120 --> 16:42.980
+Is it always about the active constraint, the active suppression of the individual's selfish signal to allow group coherence to emerge?
+
+16:43.180 --> 16:47.980
+Think about the systems in your own life, your family, your workplace, your community.
+
+16:47.980 --> 16:56.680
+What are the unspoken rules, the algorithms, or sanctions that are quietly keeping individual selfishness in check so the group can function?
+
+16:57.160 --> 16:59.660
+Where is reverse dominance happening around you?
+
+16:59.920 --> 17:01.520
+It's a powerful lens to look through.
+
+17:01.780 --> 17:03.760
+A truly mind-bending connection indeed.
+
+17:04.240 --> 17:05.760
+Thanks for diving deep with us today.
+
