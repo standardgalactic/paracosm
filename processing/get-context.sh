@@ -51,8 +51,8 @@ process_files() {
                 temp_dir=$(mktemp -d "$dir/tmp_${sanitized_name}_XXXXXX")
                 echo "Temporary directory created: $temp_dir" >> "$main_dir/$progress_file"
 
-                # Split the file into chunks of 10000 lines each
-                split -l 10000 "$file" "$temp_dir/chunk_"
+                # Split the file into chunks of 2000 lines each
+                split -l 2000 "$file" "$temp_dir/chunk_"
                 echo "File split into chunks: $(find "$temp_dir" -type f)" >> "$main_dir/$progress_file"
 
 		# Summarize each chunk and append to the summary file
