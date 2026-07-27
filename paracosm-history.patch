@@ -28,3 +28,13 @@ index 0000000..d4fa3dd
 +% Generated to satisfy main.tex's modular \input{} graph.
 +% Replace with the full manuscript text for this part.
 +
++\section*{Afterword}
++
++\textit{Closing remarks for the Zero Day Exploits corpus}
++
++\begin{quotation}
++\noindent This section is a placeholder. The corresponding books have abstracts
++in \texttt{abstracts/Zero\_Day\_Exploits\_Abstracts.md} and taglines in
++\texttt{taglines/Zero\_Day\_Exploits\_Taglines.md}, but full manuscript text
++has not yet been drafted here.
++\end{quotation}
