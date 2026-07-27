@@ -40,6 +40,8 @@ The corpus is organized into eight cycles, each comprising a set of monographs t
 
 Establishes the algebraic roots of the plenum, where curvature arises from non-commuting field operators (Φ, S). Entropy is formalized as a maximal ideal, and teleology emerges from symmetry breaking, with meaning conserved via cohomology.
 
+*Editorial note: Book 2 ("Entropy as an Ideal: The Ring Structure of the Plenum") is developed as its own volume, distinct from the brief preview of the same ideal-quotient material given in Book 1's Part II; the corpus's consistency matrix classifies Book 2 under a separate ontological layer (Algebraic, Ring) from Book 1 (Algebraic, Lie), which is why the two are kept as independent books rather than merged. See the editorial note preceding Book 2 in `book_I_algebraic/` for the full account, including a note on an unrelated, misnumbered draft once filed under the same stub slot.*
+
 ### Cycle II: Geometric RSVP — Manifolds of Meaning and Flow (Books 6–10)
 
 Projects algebraic structures onto geometric manifolds, redefining gravity as entropy flow and cognition as geodesics of intelligibility. Teleodynamic manifolds and oscillatory cycles link ethics to curvature.
