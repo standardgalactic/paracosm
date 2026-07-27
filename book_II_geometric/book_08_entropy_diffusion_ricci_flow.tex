@@ -65,3 +65,13 @@ Death and rebirth are proposed here as the natural interpretation of such a topo
 
 \part{Thermodynamic Arrows and Cognition}
 
+\chapter{Entropy Flow as Memory Formation}
+
+Information retained by a system under the diffusion equation of Chapter 1 is identified in this chapter with curvature gradients that resist diffusion: where most of the manifold's curvature smooths readily under the flow, a memory trace is a region where that smoothing is anomalously slow, a gradient that persists longer than the surrounding structure. A differential equation for memory persistence,
+\[
+\partial_t m = -\Delta m + (\grad \SEntropy) \cdot \grad m,
+\]
+governs how such a trace $m$ evolves, combining an ordinary diffusive decay term with an advective term coupling the trace's own gradient to the entropy field's gradient.
+
+This chapter demonstrates an alignment between learning rate and entropy flux: a system's rate of new memory formation, measured by how quickly new persistent gradients of $m$ are established, tracks the local magnitude of $\grad \SEntropy$ under this equation, giving a direct, testable link between the purely geometric diffusion machinery of this book and the cognitive phenomenon of learning. The prediction drawn from this alignment is that optimal memory traces occur near zero Ricci divergence, regions where $R_{ij}(\SEntropy)$'s own divergence vanishes and the advective term of the equation above neither reinforces nor opposes the trace's natural diffusive decay, giving memory its best chance of persisting against the flow without being either washed out or artificially amplified.
+
