@@ -146,3 +146,8 @@ index 0000000..6468446
 +
 +The category $\mathbf{RSVPField}$, with objects and morphisms as defined in Chapters 1 and 2, is verified here to satisfy the category axioms directly: associativity of composition follows from associativity of the underlying pullback operations defining each morphism, and the identity morphisms of Chapter 2 satisfy the required identity laws by construction. The diagrammatic coherence proof for the curvature functor $R$, referenced in Chapter 4, proceeds by checking that $R$'s action on a composite morphism agrees with the composite of $R$'s actions on the individual morphisms, a direct verification given the pullback-based definition of morphisms in Chapter 2.
 +
++\chapter*{Appendix B: Categorical Diagram Library}
++\addcontentsline{toc}{chapter}{Appendix B: Categorical Diagram Library}
++
++A library of standard commutative diagrams used throughout this book, the entropy-functoriality square of Chapter 3, the curvature-preservation square of Chapter 4, the naturality square of Chapter 5, and the adjunction triangle of Chapter 7, is collected here in a single reference location for use in later books of this cycle, each diagram annotated with the specific objects and morphisms of $\mathbf{RSVPField}$ it instantiates.
++
