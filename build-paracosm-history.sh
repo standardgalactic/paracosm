@@ -25,8 +25,8 @@
 #   ./build-paracosm-history.sh
 #
 #   ./build-paracosm-history.sh \
-#       --source paracosm-fixes.patch \
-#       --target workspace/paracosm-history.patch
+#       --source ../paracosm-fixes.patch \
+#       --target paracosm-history.patch
 #
 #   DELAY=1 ./build-paracosm-history.sh
 #
@@ -44,8 +44,8 @@ set -Eeuo pipefail
 # Defaults
 ###############################################################################
 
-SOURCE="paracosm-fixes.patch"
-TARGET="workspace/paracosm-history.patch"
+SOURCE="../paracosm-fixes.patch"
+TARGET="paracosm-history.patch"
 PREFIX="PARA"
 DELAY="${DELAY:-0}"
 FORCE_ADD=0
@@ -86,8 +86,8 @@ Examples:
   ./build-paracosm-history.sh
 
   ./build-paracosm-history.sh \
-      --source paracosm-fixes.patch \
-      --target workspace/paracosm-history.patch
+      --source ../paracosm-fixes.patch \
+      --target paracosm-history.patch
 
   DELAY=2 ./build-paracosm-history.sh
 
