@@ -107,3 +107,8 @@ Where a system's steady-state distribution $P_{\text{steady}}$ arises as the min
 
 The distinctness of the present metric from ordinary Fristonian active inference, flagged as a central claim of this book, rests on the constrained-minimization divergence identified in Appendix A: active inference's free-energy principle is typically formulated for a fixed generative model, while the present framework's preference potential $P_{\text{steady}}$ is permitted to vary under the plenum's own entropy dynamics, coupling the metric's evolution to Book 6's Ricci flow in a way ordinary active-inference accounts do not require. This coupling is what licenses the moral curvature separation the consistency matrix attributes to this book: a curvature signature attributable to ethical tension, via the moral scalar $M$ of Chapter 4, has no counterpart in a framework where the generative model is held fixed throughout.
 
+\chapter*{Appendix C: Simulation Code for Curvature-Learning Systems}
+\addcontentsline{toc}{chapter}{Appendix C: Simulation Code for Curvature-Learning Systems}
+
+A minimal implementation of the finite-element simulation referenced in Chapter 9 discretizes the preference manifold on a triangulated mesh, evolves the metric under the learning flow of Chapter 6 by an explicit time-stepping scheme, and logs the teleodynamic curvature scalar at each mesh vertex, providing the numerical basis for the curvature-density predictions proposed in that chapter.
+
