@@ -189,3 +189,11 @@ index 0000000..f8b6fce
 +
 +The philosophical reading offered at the close of this chapter treats potential and flow as two views of the same care: $\PhiField$ and $\vField$ are not independent functors describing unrelated aspects of an object but two functorial images of a single underlying object, related, as the rest of this book shows, by exactly the natural transformation that gives this book its title.
 +
++\chapter{Defining Entropy as Natural Transformation}
++
++For every object $X \in \mathbf{RSVPField}$, entropy is defined as a component $\SEntropy_X: \PhiField(X) \to \vField(X)$, and the collection of these components across all objects constitutes a natural transformation exactly when the naturality condition
++\[
++\vField(f) \circ \SEntropy_X = \SEntropy_Y \circ \PhiField(f)
++\]
++holds for every morphism $f: X \to Y$ of $\mathbf{RSVPField}$. This chapter's central result shows this naturality condition to be equivalent to local Clausius consistency, the ordinary thermodynamic requirement that entropy accounting agree regardless of the path by which a system's potential is converted into its flow: the diagrammatic proof of coherence given here shows directly that the square commutes exactly when entropy accounting taken via $X$ first agrees with entropy accounting taken via $Y$ first, which is Clausius consistency restated in categorical language.
++
