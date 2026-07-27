@@ -141,3 +141,8 @@ index 0000000..6468446
 +
 +Ethical coherence, on this account, is commutativity of responsibility: an institution whose composed processes commute, in the sense of Chapter 6's commuting squares, has not lost track of where responsibility for a given outcome lies as that outcome passed through successive stages, while an institution whose processes fail to commute has generated exactly the kind of entropy defect $\delta \SEntropy$ that chapter identified with harm. This chapter closes with the transition to Book 12, where the natural transformation only previewed in Chapter 5 above receives its full development.
 +
++\chapter*{Appendix A: Formal Definition of $\mathbf{RSVPField}$ and Proof of Functorial Coherence}
++\addcontentsline{toc}{chapter}{Appendix A: Formal Definition of $\mathbf{RSVPField}$ and Proof of Functorial Coherence}
++
++The category $\mathbf{RSVPField}$, with objects and morphisms as defined in Chapters 1 and 2, is verified here to satisfy the category axioms directly: associativity of composition follows from associativity of the underlying pullback operations defining each morphism, and the identity morphisms of Chapter 2 satisfy the required identity laws by construction. The diagrammatic coherence proof for the curvature functor $R$, referenced in Chapter 4, proceeds by checking that $R$'s action on a composite morphism agrees with the composite of $R$'s actions on the individual morphisms, a direct verification given the pullback-based definition of morphisms in Chapter 2.
++
