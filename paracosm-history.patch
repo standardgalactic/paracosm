@@ -107,3 +107,9 @@ index 0000000..6468446
 +
 +The interpretation offered at the close of this chapter treats desire and renunciation as categorical duals: $\mathcal{F}$, formation, and $\mathcal{G}$, dissolution, standing in the same left-adjoint, right-adjoint relationship that any adjoint pair exhibits, with the unit and counit of the adjunction expressing exactly how desire and renunciation cohere rather than merely opposing one another.
 +
++\chapter{Limits and Colimits of Meaning}
++
++A diagram $D: I \to \mathbf{RSVPField}$, indexed by some small category $I$, admits a limit, the common meaning extracted from every object and morphism the diagram specifies, and a colimit, the integrated synthesis of that same data. This chapter previews the construction Book 14 develops as its entire subject, establishing here only that failure of gluing, the case in which no limit or colimit exists for a given diagram, corresponds to semantic paradox, a configuration of meanings that cannot be reconciled into either a common core or an integrated whole.
++
++A visualization sketched here treats cognitive integration as colimit computation: a mind synthesizing several partial perspectives into a coherent understanding is performing, on this reading, the categorical operation of computing a colimit over the diagram those partial perspectives define, with the existence of that colimit being exactly what makes successful integration possible.
++
