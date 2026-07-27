@@ -54,3 +54,8 @@ index 0000000..6468446
 +
 +The geometric hierarchy built across Books 6 through 10 maps onto categorical structure directly: manifolds become objects, curvature-preserving maps between them become morphisms, the entropy and curvature constructions of those earlier books become functors out of the resulting category, and the naturality conditions this book develops express exactly the thermodynamic consistency those books maintained by more piecemeal argument.
 +
++\chapter*{Reading Note}
++\addcontentsline{toc}{chapter}{Reading Note}
++
++Composition replaces expansion as this series' central organizing operation, and smoothness becomes coherence: every claim in the geometric tier about a manifold smoothing under entropy flow has a categorical restatement in this book as a claim about some diagram commuting, and the reader should treat these restatements as literal translations rather than as loose analogies.
++
