@@ -93,3 +93,9 @@ index 0000000..6468446
 +
 +The interpretation offered here treats entropy as mediating between potential and flow: wherever this natural transformation exists, it supplies exactly the coherent bridge between what a system could do, its potential, and what it is doing, its flow, and the moral corollary drawn at the close of this chapter states the condition plainly: a transformation is ethical only if natural, only if it commutes with every morphism of the underlying category rather than holding merely at isolated objects.
 +
++\chapter{The Commutativity of Care}
++
++A commuting square for reversible ethical operations is defined here using the natural transformation of Chapter 5 as its diagonal, and this chapter's central claim is that failure of commutativity signals irreversible harm: where the square built from a given pair of morphisms and the entropy transformation fails to commute, the discrepancy is quantified by an entropy defect $\delta \SEntropy$, and this defect is read as a direct measure of the harm the failure represents.
++
++Restoring diagrammatic coherence, bringing a previously non-commuting square back into agreement, is identified here with ethical repair, extending the reconstruction machinery of Book 4's Chapter 10 into the present categorical vocabulary: where that earlier chapter treated reconstruction as recursive integration closing a broken cohomology class, the present chapter treats it as the categorical operation of restoring a diagram's commutativity, the same underlying act of repair expressed in the vocabulary this book has introduced.
++
