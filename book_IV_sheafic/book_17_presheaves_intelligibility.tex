@@ -110,3 +110,8 @@ To observe, on this chapter's closing formulation, is to reduce context, and thi
 
 The presheaf axioms for $\mathcal{I}$ stated in Chapter 2 are verified directly from the functor definition: identity restriction follows because $r_{UU}$ is defined as the identity map on $\mathcal{I}(U)$, and functoriality of composed restriction follows because $r_{UW} = r_{VW} \circ r_{UV}$ for $W \subset V \subset U$ holds by the definition of $\mathcal{I}$ as a contravariant functor on $\mathbf{Open}(M)$, both verified without appeal to any further structure beyond the functor axioms themselves.
 
+\chapter*{Appendix B: Algorithms for Sheafification and Semantic-Entropy Estimation}
+\addcontentsline{toc}{chapter}{Appendix B: Algorithms for Sheafification and Semantic-Entropy Estimation}
+
+Pseudocode for computing the sheafification $a(\mathcal{I})$ of Chapter 5 on a discretized presheaf proceeds by the standard plus-construction, taking matching families of local sections over successively refined covers, and pseudocode for estimating the semantic entropy $H_{UV}$ of Chapter 6 computes $-\log|\mathrm{Im}(f_{UV})|$ directly from a discretized restriction map's observed image size.
+
