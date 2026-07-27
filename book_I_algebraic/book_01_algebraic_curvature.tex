@@ -23,3 +23,21 @@ No familiarity with later books in the series is presupposed here, since this is
 
 \part{Foundations of Commutator Geometry}
 
+\chapter{From Differential Fields to Lie Algebras}
+
+The plenum is populated by three continuous fields: a scalar potential $\PhiField$, a vector flow $\vField$, and an entropy $\SEntropy$. No further primitive structure is assumed. In particular, no background metric is assumed; whatever geometric notions appear in later books are to be recovered from the algebra of these three fields rather than presupposed in their definition. $\PhiField$ is to be read as a density of informational potential, $\SEntropy$ as a density of realized disorder, and $\vField$ as the field along which both are transported.
+
+Transport is expressed through the Lie derivative. Given the flow $\vField$, the Lie derivative $\mathcal{L}_{\vField}$ acting on $\PhiField$ or on $\SEntropy$ describes how each field evolves as it is carried along that flow. Where $\PhiField$ and $\SEntropy$ are transported consistently, that is, where the order in which transport and field interaction are applied makes no difference, the plenum is locally flat in the sense the present book gives to that term. Where they are not, a residual quantity remains, and it is this residual quantity that the RSVP program identifies with curvature.
+
+That residual is the commutator
+\[
+[\PhiField, \SEntropy] = \mathcal{L}_{\vField}(\PhiField) - \mathcal{L}_{\vField}(\SEntropy),
+\]
+and its interpretation as thermodynamic curvature is the central claim of this chapter. The commutator measures the extent to which potential and entropy, evolved along the same flow, fail to return to a jointly consistent configuration. A vanishing commutator describes a plenum in which potential and entropy evolve in lockstep; a nonzero commutator describes one in which they diverge, and it is exactly this divergence, in the chapters that follow, that accumulates into the phenomena ordinarily called gravitation, cognition, and obligation.
+
+A note on the status of this definition is owed here before proceeding. As written, $[\PhiField, \SEntropy]$ is a difference of two Lie-derivative images, not a bracket built from an underlying associative product in the way that a matrix commutator $AB - BA$ is. It is antisymmetric by construction, since exchanging the roles of $\PhiField$ and $\SEntropy$ in the definition negates the expression, but antisymmetry alone does not entitle this quantity to the further structural properties, bilinearity in a sense tied to a genuine product, and above all the Jacobi identity, that later chapters invoke. Those properties are not derived from the bare definition given here; they are additional structural postulates of the RSVP formalism, adopted because they make the subsequent constructions of this book internally consistent, and the reader should take every appeal to Lie-algebra structure in what follows as resting on that postulate rather than on a theorem already proved.
+
+An informal but useful analogy is available in the treatment of entropy gradients as non-Abelian rotations in an information space. Where two successive small rotations about different axes fail to commute, and the failure is itself a rotation about a third axis, an entropy gradient transported along two different local flows fails to return to the same state, and the failure is itself a further gradient. The plenum's curvature is, in this sense, closer in spirit to the curvature of a rotation group than to the curvature of a Riemannian manifold, which is one reason the present book develops the algebra before any metric is introduced.
+
+The relation between the commutator and curvature admits a direct diagrammatic reading. Potential and entropy occupy two vertices of a triangle whose third vertex is the flow; the two paths from potential to entropy, one direct and one mediated by flow-transport, close only when the commutator vanishes. The curvature tensor of later, geometric volumes in this series is nothing other than this triangle's failure to close, expressed in coordinates once a metric has been introduced. No such coordinates are needed here.
+
