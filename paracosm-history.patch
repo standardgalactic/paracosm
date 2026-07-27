@@ -135,3 +135,9 @@ index 0000000..6468446
 +
 +Validation via compositional consistency in simulations closes this chapter: a simulated system's inferences are checked against the composition law $E(g \circ f) = E(g) \circ E(f)$ of Chapter 3 and its curvature-functor analogue from Chapter 4, with consistent composition taken as evidence that the system's cross-domain translations are genuine morphisms of $\mathbf{RSVPField}$ rather than superficially similar but categorically incoherent mappings.
 +
++\chapter{Ethics of Composition}
++
++Composition, across this book's twelve chapters, has been developed as a moral operation: to connect is to care, in the direct sense that every morphism of $\mathbf{RSVPField}$ is, by its defining condition, a transport of curvature-preserving structure, and composing morphisms is accordingly composing acts of care rather than a neutral formal operation performed on inert mathematical objects. An entropy-preserving composition law for governance systems is proposed here as a direct application, requiring that institutional processes compose in the same curvature-preserving sense this chapter has developed for $\mathbf{RSVPField}$'s morphisms generally.
++
++Ethical coherence, on this account, is commutativity of responsibility: an institution whose composed processes commute, in the sense of Chapter 6's commuting squares, has not lost track of where responsibility for a given outcome lies as that outcome passed through successive stages, while an institution whose processes fail to commute has generated exactly the kind of entropy defect $\delta \SEntropy$ that chapter identified with harm. This chapter closes with the transition to Book 12, where the natural transformation only previewed in Chapter 5 above receives its full development.
++
