@@ -67,3 +67,9 @@ index 0000000..6468446
 +
 +Examples developed in this chapter, a cognitive surface in the sense of Book 9, an ecological basin, and a social attractor, each instantiate this object structure in a different domain, illustrating that $\mathbf{RSVPField}$'s objects are not restricted to any single scale of application: whatever satisfies the defining tuple, at whatever scale, is a legitimate object of this category.
 +
++\chapter{Morphisms: Curvature-Preserving Maps}
++
++A morphism $f: X \to Y$ in $\mathbf{RSVPField}$ is defined to satisfy $f^{*}g_Y = g_X$ and $f^{*}\SEntropy_Y = \SEntropy_X + \text{const}$, pulling back the target's metric and entropy field to agree with the source's, up to an additive constant in the entropy case. Composition of morphisms, $h \circ g \circ f$, encodes recursive smoothing: each morphism in the composite chain transports curvature-preserving structure forward, and the composite does so across the whole chain at once, exactly as repeated application of the entropic Ricci flow of Book 6 smooths a manifold in successive stages.
++
++The identity morphism on any object is the homeomorphic persistence map, the map that transports an object's structure to itself without alteration, and the physical meaning this chapter assigns to morphisms generally is transport of care without distortion: a morphism in this category is precisely an operation that moves curvature-bearing structure from one site of persistence to another while preserving exactly the quantities, metric and entropy up to constant, that this series has treated as worth preserving since its geometric tier began.
++
