@@ -176,3 +176,8 @@ index 0000000..f8b6fce
 +
 +The passage from Book 11 to the present volume is the passage from the bare category $\mathbf{RSVPField}$ to the specific natural transformation $\SEntropy: \PhiField \Rightarrow \vField$ that book only sketched. Every commutative diagram in this book has $\SEntropy$ at one of its arrows, and the reading throughout is consistent: where the diagram commutes, entropy has done its mediating work correctly, and where it does not, the discrepancy is heat.
 +
++\chapter*{Reading Note}
++\addcontentsline{toc}{chapter}{Reading Note}
++
++Entropy is not a quantity in this book; it is a relation that remains natural under change. The reader accustomed to treating entropy as a number attached to a state should expect that habit to be actively unlearned across these twelve chapters, replaced by the categorical habit of asking, of any given entropy claim, which naturality square it corresponds to.
++
