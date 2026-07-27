@@ -18,3 +18,8 @@ index 0000000..6e8bf73
 +++ b/VERSION
 @@ -0,0 +1 @@
 +0.1.0
+diff --git a/appendices/afterword.tex b/appendices/afterword.tex
+new file mode 100644
+index 0000000..d4fa3dd
+--- /dev/null
++++ b/appendices/afterword.tex
