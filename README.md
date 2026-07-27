@@ -1,5 +1,7 @@
 # Zero Day Exploits: The RSVP Corpus
 
+[RSVP Codex](https://standardgalactic.github.io/paracosm/RSVP-codex.pdf)
+
 ## Overview
 
 Zero Day Exploits is a 42-book theoretical corpus that constructs the Relativistic Scalar–Vector Plenum (RSVP) framework, a unified field theory integrating physics, cognition, ethics, and governance through the lens of entropy, curvature, and teleology. The corpus reimagines the universe as a non-expanding plenum—a fixed manifold undergoing internal differentiation via entropic smoothing. Each book is a self-contained monograph, collectively forming a recursive cosmology where reality computes, regulates, and resolves itself through structured asymmetries.

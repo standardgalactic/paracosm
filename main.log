@@ -1,0 +1,3826 @@
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.5.3)  27 JUL 2026 19:20
+ restricted system commands enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/flyxion/.texlive2023/texmf-va
+r/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
+olved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2023-
+08-19.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.133
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/flyxion/.texlive2023/texmf-va
+r/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (./preamble.tex (/usr/s
+hare/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/flyxion/.texlive2023/tex
+mf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen140
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen142
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count199
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip16
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks20
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks21
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks22
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks30
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks32
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count275
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count276
+)
+\@linkdim=\dimen159
+\Hy@linkcounter=\count277
+\Hy@pagecounter=\count278
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count279
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count280
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen160
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count281
+\Field@Width=\dimen161
+\Fld@charsize=\dimen162
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count282
+\c@Item=\count283
+\c@Hfootnote=\count284
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2024-01-20 v7.01h Hyperref driver for luaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count285
+\c@bookmark@seq@number=\count286
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip56
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip57
+\f@nch@O@elh=\skip58
+\f@nch@O@erh=\skip59
+\f@nch@O@olh=\skip60
+\f@nch@O@orh=\skip61
+\f@nch@O@elf=\skip62
+\f@nch@O@erf=\skip63
+\f@nch@O@olf=\skip64
+\f@nch@O@orf=\skip65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip66
+\aftertitleunit=\skip67
+\ttl@plus=\dimen163
+\ttl@minus=\dimen164
+\ttl@toksa=\toks33
+\titlewidth=\dimen165
+\titlewidthlast=\dimen166
+\titlewidthfirst=\dimen167
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen168
+\lightrulewidth=\dimen169
+\cmidrulewidth=\dimen170
+\belowrulesep=\dimen171
+\belowbottomsep=\dimen172
+\aboverulesep=\dimen173
+\abovetopsep=\dimen174
+\cmidrulesep=\dimen175
+\cmidrulekern=\dimen176
+\defaultaddspace=\dimen177
+\@cmidla=\count287
+\@cmidlb=\count288
+\@aboverulesep=\dimen178
+\@belowrulesep=\dimen179
+\@thisruleclass=\count289
+\@lastruleclass=\count290
+\@thisrulewidth=\dimen180
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count291
+\float@exts=\toks34
+\float@box=\box54
+\@float@everytoks=\toks35
+\@floatcapt=\box55
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip68
+\enit@outerparindent=\dimen181
+\enit@toks=\toks36
+\enit@inbox=\box56
+\enit@count@id=\count292
+\enitdp@description=\count293
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count294
+\mult@box=\box57
+\multicol@leftmargin=\dimen182
+\c@unbalance=\count295
+\c@collectmore=\count296
+\doublecol@number=\count297
+\multicoltolerance=\count298
+\multicolpretolerance=\count299
+\full@width=\dimen183
+\page@free=\dimen184
+\premulticols=\dimen185
+\postmulticols=\dimen186
+\multicolsep=\skip69
+\multicolbaselineskip=\skip70
+\partial@page=\box58
+\last@line=\box59
+\mc@boxedresult=\box60
+\maxbalancingoverflow=\dimen187
+\mult@rightbox=\box61
+\mult@grightbox=\box62
+\mult@firstbox=\box63
+\mult@gfirstbox=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\c@minrows=\count300
+\c@columnbadness=\count301
+\c@finalcolumnbadness=\count302
+\last@try=\dimen188
+\multicolovershoot=\dimen189
+\multicolundershoot=\dimen190
+\mult@nat@firstbox=\box101
+\colbreak@box=\box102
+\mc@col@check@num=\count303
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen191
+\captionmargin=\dimen192
+\caption@leftmargin=\dimen193
+\caption@rightmargin=\dimen194
+\caption@width=\dimen195
+\caption@indent=\dimen196
+\caption@parindent=\dimen197
+\caption@hangindent=\dimen198
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count304
+\c@continuedfloat=\count305
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 9.
+) (./macros.tex) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-l
+uatex.def
+File: l3backend-luatex.def 2024-01-04 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count306
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box103
+)
+(./main.aux)
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-31.8738pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=47.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count307
+\scratchdimen=\dimen199
+\scratchbox=\box104
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen256
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks38
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring ON on input line 4.
+
+(./main.out) (./main.out)
+\@outlinefile=\write3
+
+\openout3 = main.out
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
+Overfull \hbox (6.65506pt too wide) in paragraph at lines 1--1
+[][]\T1/lmr/bx/n/14.4 I Cy-cle I: Al-ge-braic RSVP — The Com-mu-ta-tor of Mean
+-ing (Books 
+ []
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.i'
+[1
+
+
+Missing character: There is no — (U+2014) in font ec-lmbx12!
+]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 39.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7
+Missing character: There is no — (U+2014) in font ec-lmbx12!
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+Overfull \hbox (2.62526pt too wide) detected at line 213
+\T1/lmr/bx/n/12 100 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 215
+\T1/lmr/bx/n/12 101 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+Overfull \hbox (2.62526pt too wide) detected at line 216
+\T1/lmr/bx/n/12 102 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 218
+\T1/lmr/bx/n/12 103 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 219
+\T1/lmr/bx/n/12 104 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 221
+\T1/lmr/bx/n/12 105 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 222
+\T1/lmr/bx/n/12 106 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 224
+\T1/lmr/bx/n/12 107 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 225
+\T1/lmr/bx/n/12 108 
+ []
+
+
+Overfull \hbox (5.58253pt too wide) in paragraph at lines 229--229
+ [] [][]\T1/lmr/bx/n/12 Ap-pendix D: Re-flec-tive Note --- ``To Un-der-stand Is to Move Smoothly Through 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 234
+\T1/lmr/bx/n/12 109 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 235
+\T1/lmr/bx/n/12 110 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+Overfull \hbox (2.62526pt too wide) detected at line 237
+\T1/lmr/bx/n/12 111 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 238
+\T1/lmr/bx/n/12 112 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 240
+\T1/lmr/bx/n/12 113 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 241
+\T1/lmr/bx/n/12 114 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 243
+\T1/lmr/bx/n/12 115 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 244
+\T1/lmr/bx/n/12 116 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 246
+\T1/lmr/bx/n/12 117 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 247
+\T1/lmr/bx/n/12 118 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 249
+\T1/lmr/bx/n/12 119 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 250
+\T1/lmr/bx/n/12 120 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+Overfull \hbox (2.62526pt too wide) detected at line 260
+\T1/lmr/bx/n/12 121 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 261
+\T1/lmr/bx/n/12 122 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 263
+\T1/lmr/bx/n/12 123 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 264
+\T1/lmr/bx/n/12 124 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 266
+\T1/lmr/bx/n/12 125 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 267
+\T1/lmr/bx/n/12 126 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 269
+\T1/lmr/bx/n/12 127 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 270
+\T1/lmr/bx/n/12 128 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 272
+\T1/lmr/bx/n/12 129 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 273
+\T1/lmr/bx/n/12 130 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 275
+\T1/lmr/bx/n/12 131 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13
+Missing character: There is no — (U+2014) in font ec-lmbx12!
+]
+Overfull \hbox (2.62526pt too wide) detected at line 276
+\T1/lmr/bx/n/12 132 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 285
+\T1/lmr/bx/n/12 133 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 286
+\T1/lmr/bx/n/12 134 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 288
+\T1/lmr/bx/n/12 135 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 289
+\T1/lmr/bx/n/12 136 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 291
+\T1/lmr/bx/n/12 137 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 292
+\T1/lmr/bx/n/12 138 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 294
+\T1/lmr/bx/n/12 139 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 295
+\T1/lmr/bx/n/12 140 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 297
+\T1/lmr/bx/n/12 141 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+Overfull \hbox (2.62526pt too wide) detected at line 298
+\T1/lmr/bx/n/12 142 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 300
+\T1/lmr/bx/n/12 143 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 301
+\T1/lmr/bx/n/12 144 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 310
+\T1/lmr/bx/n/12 145 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 311
+\T1/lmr/bx/n/12 146 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 313
+\T1/lmr/bx/n/12 147 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 314
+\T1/lmr/bx/n/12 148 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 316
+\T1/lmr/bx/n/12 149 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 317
+\T1/lmr/bx/n/12 150 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 319
+\T1/lmr/bx/n/12 151 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+Overfull \hbox (2.62526pt too wide) detected at line 320
+\T1/lmr/bx/n/12 152 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 322
+\T1/lmr/bx/n/12 153 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 323
+\T1/lmr/bx/n/12 154 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 325
+\T1/lmr/bx/n/12 155 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 326
+\T1/lmr/bx/n/12 156 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 335
+\T1/lmr/bx/n/12 157 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 336
+\T1/lmr/bx/n/12 158 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 338
+\T1/lmr/bx/n/12 159 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 339
+\T1/lmr/bx/n/12 160 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 341
+\T1/lmr/bx/n/12 161 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+Overfull \hbox (2.62526pt too wide) detected at line 342
+\T1/lmr/bx/n/12 162 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 344
+\T1/lmr/bx/n/12 163 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 345
+\T1/lmr/bx/n/12 164 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 347
+\T1/lmr/bx/n/12 165 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 348
+\T1/lmr/bx/n/12 166 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 350
+\T1/lmr/bx/n/12 167 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 351
+\T1/lmr/bx/n/12 168 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 360
+\T1/lmr/bx/n/12 169 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 361
+\T1/lmr/bx/n/12 170 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 363
+\T1/lmr/bx/n/12 171 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+Overfull \hbox (2.62526pt too wide) detected at line 364
+\T1/lmr/bx/n/12 172 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 366
+\T1/lmr/bx/n/12 173 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 367
+\T1/lmr/bx/n/12 174 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 369
+\T1/lmr/bx/n/12 175 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 370
+\T1/lmr/bx/n/12 176 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 372
+\T1/lmr/bx/n/12 177 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 373
+\T1/lmr/bx/n/12 178 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 375
+\T1/lmr/bx/n/12 179 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 376
+\T1/lmr/bx/n/12 180 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18
+Missing character: There is no — (U+2014) in font ec-lmbx12!
+]
+Overfull \hbox (2.62526pt too wide) detected at line 386
+\T1/lmr/bx/n/12 181 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 387
+\T1/lmr/bx/n/12 182 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 389
+\T1/lmr/bx/n/12 183 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 390
+\T1/lmr/bx/n/12 184 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 392
+\T1/lmr/bx/n/12 185 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 393
+\T1/lmr/bx/n/12 186 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 395
+\T1/lmr/bx/n/12 187 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 396
+\T1/lmr/bx/n/12 188 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 398
+\T1/lmr/bx/n/12 189 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 399
+\T1/lmr/bx/n/12 190 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 401
+\T1/lmr/bx/n/12 191 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 402
+\T1/lmr/bx/n/12 192 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19
+Missing character: There is no Č (U+010C) in font ec-lmbx12!
+]
+Overfull \hbox (2.62526pt too wide) detected at line 411
+\T1/lmr/bx/n/12 193 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 412
+\T1/lmr/bx/n/12 194 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 414
+\T1/lmr/bx/n/12 195 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 415
+\T1/lmr/bx/n/12 196 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 417
+\T1/lmr/bx/n/12 197 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 418
+\T1/lmr/bx/n/12 198 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 420
+\T1/lmr/bx/n/12 199 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 421
+\T1/lmr/bx/n/12 200 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 423
+\T1/lmr/bx/n/12 201 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 424
+\T1/lmr/bx/n/12 202 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+Overfull \hbox (2.62526pt too wide) detected at line 426
+\T1/lmr/bx/n/12 203 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 427
+\T1/lmr/bx/n/12 204 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 436
+\T1/lmr/bx/n/12 205 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 437
+\T1/lmr/bx/n/12 206 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 439
+\T1/lmr/bx/n/12 207 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 440
+\T1/lmr/bx/n/12 208 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 442
+\T1/lmr/bx/n/12 209 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 443
+\T1/lmr/bx/n/12 210 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 445
+\T1/lmr/bx/n/12 211 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+Overfull \hbox (2.62526pt too wide) detected at line 446
+\T1/lmr/bx/n/12 212 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 448
+\T1/lmr/bx/n/12 213 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 449
+\T1/lmr/bx/n/12 214 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 451
+\T1/lmr/bx/n/12 215 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 452
+\T1/lmr/bx/n/12 216 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 461
+\T1/lmr/bx/n/12 217 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 462
+\T1/lmr/bx/n/12 218 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 464
+\T1/lmr/bx/n/12 219 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 465
+\T1/lmr/bx/n/12 220 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22
+Missing character: There is no Č (U+010C) in font ec-lmbx12!
+]
+Overfull \hbox (2.62526pt too wide) detected at line 467
+\T1/lmr/bx/n/12 221 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 468
+\T1/lmr/bx/n/12 222 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 470
+\T1/lmr/bx/n/12 223 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 471
+\T1/lmr/bx/n/12 224 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 473
+\T1/lmr/bx/n/12 225 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 474
+\T1/lmr/bx/n/12 226 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 476
+\T1/lmr/bx/n/12 227 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 477
+\T1/lmr/bx/n/12 228 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 486
+\T1/lmr/bx/n/12 229 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23
+Missing character: There is no Č (U+010C) in font ec-lmbx12!
+]
+Overfull \hbox (2.62526pt too wide) detected at line 487
+\T1/lmr/bx/n/12 230 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 489
+\T1/lmr/bx/n/12 231 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 490
+\T1/lmr/bx/n/12 232 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 492
+\T1/lmr/bx/n/12 233 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 493
+\T1/lmr/bx/n/12 234 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 495
+\T1/lmr/bx/n/12 235 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 496
+\T1/lmr/bx/n/12 236 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 498
+\T1/lmr/bx/n/12 237 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 499
+\T1/lmr/bx/n/12 238 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 501
+\T1/lmr/bx/n/12 239 
+ []
+
+
+Overfull \hbox (2.62526pt too wide) detected at line 502
+\T1/lmr/bx/n/12 240 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24])
+\tf@toc=\write4
+
+\openout4 = main.toc
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25] [1
+
+
+
+Missing character: There is no — (U+2014) in font ec-lmbx12!
+] (./book_I_algebraic/algebraic_main.tex
+(./book_I_algebraic/book_01_algebraic_curvature.tex [2
+
+] [3
+
+] [4
+
+] [5
+
+]
+Chapter 1.
+[6
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+Chapter 2.
+[8
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9] [10
+
+]
+Chapter 3.
+[11
+
+]
+Chapter 4.
+[12
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13] [14
+
+]
+Chapter 5.
+[15
+
+]
+Chapter 6.
+[16
+
+] [17
+
+]
+Chapter 7.
+[18
+
+]
+Chapter 8.
+[19
+
+] [20
+
+]
+Chapter 9.
+[21
+
+]
+Chapter 10.
+[22
+
+] [23
+
+]
+Chapter 11.
+[24
+
+]
+Chapter 12.
+[25
+
+]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+57.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [26
+
+] [27
+
+] [28
+
+])
+(./book_I_algebraic/editorial_note_book2.tex [29
+
+])
+(./book_I_algebraic/book_02_entropy_as_ideal.tex [30
+
+] [31
+
+] [32
+
+] [33
+
+] [34
+
+]
+Chapter 13.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 20.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 20.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 20.
+
+[35
+
+]
+Chapter 14.
+[36
+
+] [37
+
+]
+Chapter 15.
+[38
+
+]
+Chapter 16.
+[39
+
+] [40
+
+]
+Chapter 17.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.95871pt
+(hyperref)                removed on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 48.
+
+[41
+
+]
+Chapter 18.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 54.
+
+[42
+
+] [43
+
+]
+Chapter 19.
+[44
+
+]
+Chapter 20.
+[45
+
+] [46
+
+]
+Chapter 21.
+[47
+
+]
+Chapter 22.
+[48
+
+] [49
+
+]
+Chapter 23.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 90.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 90.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 90.
+
+[50
+
+]
+Chapter 24.
+[51
+
+] [52
+
+] [53
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 113.
+
+[54
+
+]) (./book_I_algebraic/book_03_symmetry_breaking.tex [55
+
+] [56
+
+] [57
+
+] [58
+
+]
+[59
+
+]
+Chapter 25.
+[60
+
+]
+Chapter 26.
+[61
+
+] [62
+
+]
+Chapter 27.
+[63
+
+]
+Chapter 28.
+[64
+
+] [65
+
+]
+Chapter 29.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 50.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 50.
+
+[66
+
+]
+Chapter 30.
+[67
+
+] [68
+
+]
+Chapter 31.
+[69
+
+]
+Chapter 32.
+[70
+
+] [71
+
+]
+Chapter 33.
+[72
+
+]
+Chapter 34.
+[73
+
+] [74
+
+]
+Chapter 35.
+[75
+
+]
+Chapter 36.
+[76
+
+] [77
+
+] [78
+
+] [79
+
+]) (./book_I_algebraic/book_04_rsvp_cohomology.tex [80
+
+]
+[81
+
+] [82
+
+] [83
+
+] [84
+
+]
+Chapter 37.
+[85
+
+]
+Chapter 38.
+[86
+
+] [87
+
+]
+Chapter 39.
+[88
+
+]
+Chapter 40.
+[89
+
+] [90
+
+]
+Chapter 41.
+[91
+
+]
+Chapter 42.
+[92
+
+] [93
+
+]
+Chapter 43.
+[94
+
+]
+Chapter 44.
+[95
+
+] [96
+
+]
+Chapter 45.
+[97
+
+]
+Chapter 46.
+[98
+
+] [99
+
+]
+Chapter 47.
+[100
+
+]
+Chapter 48.
+[101
+
+] [102
+
+] [103
+
+] [104
+
+]) (./book_I_algebraic/book_05_bv_algebra_desire.tex
+[105
+
+] [106
+
+] [107
+
+] [108
+
+] [109
+
+]
+Chapter 49.
+[110
+
+]
+Chapter 50.
+[111
+
+] [112
+
+]
+Chapter 51.
+[113
+
+]
+Chapter 52.
+[114
+
+] [115
+
+]
+Chapter 53.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\delta' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 54.
+
+[116
+
+]
+Chapter 54.
+[117
+
+] [118
+
+]
+Chapter 55.
+[119
+
+]
+Chapter 56.
+[120
+
+] [121
+
+]
+Chapter 57.
+[122
+
+]
+Chapter 58.
+[123
+
+] [124
+
+]
+Chapter 59.
+[125
+
+]
+Chapter 60.
+[126
+
+] [127
+
+] [128
+
+] [129
+
+])) [130
+
+] [131
+
+
+Missing character: There is no — (U+2014) in font ec-lmbx12!
+] (./book_II_geometric/geometric_main.tex
+(./book_II_geometric/provenance_note_book6.tex)
+(./book_II_geometric/book_06_curvature_without_expansion.tex [132
+
+] [133
+
+]
+[134
+
+] [135
+
+] [136
+
+]
+Chapter 61.
+[137
+
+]
+Chapter 62.
+[138
+
+] [139
+
+]
+Chapter 63.
+[140
+
+]
+Chapter 64.
+[141
+
+] [142
+
+]
+Chapter 65.
+[143
+
+]
+Chapter 66.
+[144
+
+] [145
+
+]
+Chapter 67.
+[146
+
+]
+Chapter 68.
+[147
+
+] [148
+
+]
+Chapter 69.
+[149
+
+]
+Chapter 70.
+[150
+
+] [151
+
+]
+Chapter 71.
+[152
+
+]
+Chapter 72.
+[153
+
+] [154
+
+] [155
+
+] [156
+
+])
+(./book_II_geometric/book_07_teleodynamic_manifolds.tex [157
+
+] [158
+
+] [159
+
+]
+[160
+
+] [161
+
+]
+Chapter 73.
+[162
+
+]
+Chapter 74.
+[163
+
+] [164
+
+]
+Chapter 75.
+[165
+
+]
+Chapter 76.
+[166
+
+] [167
+
+]
+Chapter 77.
+[168
+
+]
+Chapter 78.
+[169
+
+] [170
+
+]
+Chapter 79.
+
+Overfull \hbox (7.928pt too wide) in paragraph at lines 66--67
+[]\T1/lmr/m/n/12 An ex-am-ple of so-ci-etal learn-ing equi-lib-ria ap-plies this
+ clas-si-fi-ca-tion to in-sti-tu-tional decision-
+ []
+
+[171
+
+]
+Chapter 80.
+[172
+
+] [173
+
+]
+Chapter 81.
+[174
+
+]
+Chapter 82.
+[175
+
+] [176
+
+]
+Chapter 83.
+[177
+
+]
+Chapter 84.
+[178
+
+] [179
+
+] [180
+
+] [181
+
+])
+(./book_II_geometric/book_08_entropy_diffusion_ricci_flow.tex [182
+
+] [183
+
+]
+[184
+
+] [185
+
+] [186
+
+]
+Chapter 85.
+[187
+
+]
+Chapter 86.
+[188
+
+] [189
+
+]
+Chapter 87.
+[190
+
+]
+Chapter 88.
+[191
+
+] [192
+
+]
+Chapter 89.
+[193
+
+]
+Chapter 90.
+[194
+
+] [195
+
+]
+Chapter 91.
+[196
+
+]
+Chapter 92.
+[197
+
+] [198
+
+]
+Chapter 93.
+[199
+
+]
+Chapter 94.
+[200
+
+] [201
+
+]
+Chapter 95.
+[202
+
+]
+Chapter 96.
+[203
+
+] [204
+
+]
+Overfull \hbox (0.43611pt too wide) in paragraph at lines 120--121
+\T1/lmr/m/n/12 A min-i-mal com-pu-ta-tional scheme dis-cretizes the man-i-fold 
+in en-tropy co-or-di-nates, parametriz-
+ []
+
+[205
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 123.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 123.
+
+[206
+
+]) (./book_II_geometric/book_09_geodesics_of_intelligibility.tex [207
+
+]
+[208
+
+] [209
+
+] [210
+
+] [211
+
+]
+Chapter 97.
+[212
+
+]
+Chapter 98.
+[213
+
+] [214
+
+]
+Chapter 99.
+[215
+
+]
+Chapter 100.
+[216
+
+] [217
+
+]
+Chapter 101.
+[218
+
+]
+Chapter 102.
+[219
+
+] [220
+
+]
+Chapter 103.
+[221
+
+]
+Chapter 104.
+[222
+
+] [223
+
+]
+Chapter 105.
+[224
+
+]
+Chapter 106.
+[225
+
+] [226
+
+]
+Chapter 107.
+[227
+
+]
+Chapter 108.
+[228
+
+] [229
+
+] [230
+
+] [231
+
+]) (./book_II_geometric/book_10_lamphron_lamphrodyne.tex
+[232
+
+] [233
+
+] [234
+
+] [235
+
+] [236
+
+]
+Chapter 109.
+[237
+
+]
+Chapter 110.
+[238
+
+] [239
+
+]
+Chapter 111.
+[240
+
+]
+Chapter 112.
+[241
+
+] [242
+
+]
+Chapter 113.
+[243
+
+]
+Chapter 114.
+[244
+
+] [245
+
+]
+Chapter 115.
+[246
+
+]
+Chapter 116.
+[247
+
+] [248
+
+]
+Chapter 117.
+[249
+
+]
+Chapter 118.
+[250
+
+] [251
+
+]
+Chapter 119.
+[252
+
+]
+Chapter 120.
+[253
+
+] [254
+
+] [255
+
+] [256
+
+])) [257
+
+] [258
+
+
+Missing character: There is no — (U+2014) in font ec-lmbx12!
+] (./book_III_categorical/categorical_main.tex
+(./book_III_categorical/book_11_functorial_curvature.tex [259
+
+] [260
+
+] [261
+
+]
+[262
+
+]
+Chapter 121.
+[263
+
+]
+Chapter 122.
+[264
+
+] [265
+
+]
+Chapter 123.
+[266
+
+]
+Chapter 124.
+[267
+
+] [268
+
+]
+Chapter 125.
+[269
+
+]
+Chapter 126.
+[270
+
+] [271
+
+]
+Chapter 127.
+[272
+
+]
+Chapter 128.
+[273
+
+] [274
+
+]
+Chapter 129.
+[275
+
+]
+Chapter 130.
+[276
+
+] [277
+
+]
+Chapter 131.
+[278
+
+]
+Chapter 132.
+[279
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+[280
+
+]
+Overfull \hbox (19.36772pt too wide) in paragraph at lines 106--107
+\T1/lmr/m/n/12 A li-brary of stan-dard com-mu-ta-tive di-a-grams used through-ou
+t this book, the entropy-functoriality
+ []
+
+[281
+
+] [282
+
+]) (./book_III_categorical/book_12_entropy_natural_transformation.tex [283
+
+] [284
+
+] [285
+
+] [286
+
+] [287
+
+]
+Chapter 133.
+
+Overfull \hbox (19.74316pt too wide) in paragraph at lines 20--21
+\T1/lmr/m/n/12 The scalar func-tor $\OT1/cmr/m/n/12  : [] \OMS/cmsy/m/n/12 ! [
+]$ \T1/lmr/m/n/12 and the vec-tor func-tor $[] \OT1/cmr/m/n/12 : [] \OMS/cmsy/m
+/n/12 !
+ []
+
+[288
+
+]
+Chapter 134.
+[289
+
+] [290
+
+]
+Chapter 135.
+[291
+
+]
+Chapter 136.
+[292
+
+] [293
+
+]
+Chapter 137.
+[294
+
+]
+Chapter 138.
+[295
+
+] [296
+
+]
+Chapter 139.
+[297
+
+]
+Chapter 140.
+[298
+
+] [299
+
+]
+Chapter 141.
+[300
+
+]
+Chapter 142.
+
+Overfull \hbox (23.83966pt too wide) in paragraph at lines 86--87
+\T1/lmr/m/n/12 A Čech-style co-ho-mol-ogy $\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12
+ ([]\OML/cmm/m/it/12 ; S\OT1/cmr/m/n/12 )$ \T1/lmr/m/n/12 is com-puted in this 
+chap-ter by cov-er-ing $[]$
+ []
+
+[301
+
+
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+] [302
+
+]
+Chapter 143.
+[303
+
+]
+Chapter 144.
+[304
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Phi' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Rightarrow' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@nomath' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\setbox' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\thinmuskip' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\medmuskip' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\m@ne' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\thickmuskip' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ne' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\setbox' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tw@' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@tempa' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathchoice' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\displaystyle' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textstyle' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\scriptstyle' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\scriptscriptstyle' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endgroup' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+[305
+
+] [306
+
+] [307
+
+]) (./book_III_categorical/book_13_teleology_as_adjunction.tex
+[308
+
+] [309
+
+] [310
+
+] [311
+
+] [312
+
+]
+Chapter 145.
+[313
+
+]
+Chapter 146.
+[314
+
+] [315
+
+]
+Chapter 147.
+[316
+
+]
+Chapter 148.
+[317
+
+] [318
+
+]
+Chapter 149.
+[319
+
+]
+Chapter 150.
+[320
+
+] [321
+
+]
+Chapter 151.
+[322
+
+]
+Chapter 152.
+[323
+
+] [324
+
+]
+Chapter 153.
+[325
+
+]
+Chapter 154.
+[326
+
+] [327
+
+]
+Chapter 155.
+[328
+
+]
+Chapter 156.
+[329
+
+]
+Overfull \hbox (5.01567pt too wide) in paragraph at lines 113--114
+\T1/lmr/m/n/12 The ad-junc-tion $\OMS/cmsy/m/n/12 A a P$ \T1/lmr/m/n/12 stated 
+in Chap-ter 2 is ver-i-fied by con-struct-ing the unit $\OML/cmm/m/it/12  \OT1
+/cmr/m/n/12 : 1[] \OMS/cmsy/m/n/12 )
+ []
+
+[330
+
+] [331
+
+] [332
+
+]) (./book_III_categorical/book_14_limits_colimits_meaning.tex
+[333
+
+] [334
+
+] [335
+
+] [336
+
+] [337
+
+]
+Chapter 157.
+[338
+
+]
+Chapter 158.
+[339
+
+] [340
+
+]
+Chapter 159.
+[341
+
+]
+Chapter 160.
+[342
+
+] [343
+
+]
+Chapter 161.
+[344
+
+]
+Chapter 162.
+[345
+
+
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+] [346
+
+]
+Chapter 163.
+[347
+
+]
+Chapter 164.
+[348
+
+] [349
+
+]
+Chapter 165.
+[350
+
+]
+Chapter 166.
+[351
+
+] [352
+
+]
+Chapter 167.
+[353
+
+]
+Chapter 168.
+[354
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 101.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 101.
+
+[355
+
+] [356
+
+] [357
+
+]) (./book_III_categorical/book_15_monoidal_intelligence.tex
+[358
+
+] [359
+
+] [360
+
+] [361
+
+] [362
+
+]
+Chapter 169.
+[363
+
+]
+Chapter 170.
+[364
+
+] [365
+
+]
+Chapter 171.
+[366
+
+]
+Chapter 172.
+[367
+
+] [368
+
+]
+Chapter 173.
+[369
+
+]
+Chapter 174.
+[370
+
+] [371
+
+]
+Chapter 175.
+[372
+
+]
+Chapter 176.
+[373
+
+] [374
+
+]
+Chapter 177.
+[375
+
+]
+Chapter 178.
+[376
+
+] [377
+
+]
+Chapter 179.
+[378
+
+]
+Chapter 180.
+[379
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+[380
+
+] [381
+
+] [382
+
+])) [383
+
+] [384
+
+
+Missing character: There is no — (U+2014) in font ec-lmbx12!
+] (./book_IV_sheafic/sheafic_main.tex
+(./book_IV_sheafic/book_16_entropy_sheaves.tex [385
+
+] [386
+
+] [387
+
+] [388
+
+]
+Chapter 181.
+[389
+
+]
+Chapter 182.
+[390
+
+] [391
+
+]
+Chapter 183.
+[392
+
+]
+Chapter 184.
+[393
+
+] [394
+
+]
+Chapter 185.
+[395
+
+]
+Chapter 186.
+[396
+
+
+Missing character: There is no Č (U+010C) in font ec-lmbx12!
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+] [397
+
+]
+Chapter 187.
+[398
+
+]
+Chapter 188.
+[399
+
+] [400
+
+]
+Chapter 189.
+[401
+
+]
+Chapter 190.
+
+Overfull \hbox (3.55557pt too wide) in paragraph at lines 86--87
+[]\T1/lmr/m/n/12 Topo-log-i-cal re-con-struc-tion af-ter such a break-down pro-c
+eeds via col-imit of re-stored patches,
+ []
+
+[402
+
+] [403
+
+]
+Chapter 191.
+[404
+
+
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+]
+Chapter 192.
+[405
+
+] [406
+
+] [407
+
+] [408
+
+
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+]) (./book_IV_sheafic/book_17_presheaves_intelligibility.tex [409
+
+] [410
+
+]
+[411
+
+] [412
+
+] [413
+
+]
+Chapter 193.
+[414
+
+]
+Chapter 194.
+[415
+
+] [416
+
+]
+Chapter 195.
+
+Overfull \hbox (2.65392pt too wide) in paragraph at lines 38--39
+\T1/lmr/m/n/12 A mor-phism be-tween presheaves of in-tel-li-gi-bil-ity is a tran
+s-la-tion be-tween in-ter-pre-tive schemes,
+ []
+
+[417
+
+]
+Chapter 196.
+[418
+
+] [419
+
+]
+Chapter 197.
+[420
+
+]
+Chapter 198.
+[421
+
+] [422
+
+]
+Chapter 199.
+[423
+
+]
+Chapter 200.
+[424
+
+] [425
+
+]
+Chapter 201.
+[426
+
+]
+Chapter 202.
+[427
+
+] [428
+
+]
+Chapter 203.
+[429
+
+]
+Chapter 204.
+[430
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 109.
+
+[431
+
+] [432
+
+] [433
+
+]) (./book_IV_sheafic/book_18_topos_of_teleology.tex [434
+
+]
+[435
+
+] [436
+
+] [437
+
+] [438
+
+]
+Chapter 205.
+[439
+
+]
+Chapter 206.
+
+Overfull \hbox (65.03569pt too wide) in paragraph at lines 26--27
+\T1/lmr/m/n/12 The sub-ob-ject clas-si-fier $\OT1/cmr/m/n/12 
+(\OML/cmm/m/it/12 U\OT1/cmr/m/n/12 )$ \T1/lmr/m/n/12 is de-fined as the lat-tice
+ of eth-i-cal truth val-ues $\OMS/cmsy/m/n/12 f[]\OML/cmm/m/it/12 ; []; []\OMS/
+cmsy/m/n/12 g$\T1/lmr/m/n/12 ,
+ []
+
+[440
+
+] [441
+
+]
+Chapter 207.
+[442
+
+]
+Chapter 208.
+[443
+
+] [444
+
+]
+Chapter 209.
+[445
+
+]
+Chapter 210.
+[446
+
+] [447
+
+]
+Chapter 211.
+[448
+
+]
+Chapter 212.
+[449
+
+] [450
+
+]
+Chapter 213.
+[451
+
+]
+Chapter 214.
+[452
+
+] [453
+
+]
+Chapter 215.
+[454
+
+]
+Chapter 216.
+[455
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+[456
+
+] [457
+
+] [458
+
+]) (./book_IV_sheafic/book_19_sheaf_cohomology_desire.tex
+[459
+
+] [460
+
+
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+] [461
+
+] [462
+
+] [463
+
+]
+Chapter 217.
+[464
+
+]
+Chapter 218.
+[465
+
+
+Missing character: There is no Č (U+010C) in font ec-lmbx12!
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+] [466
+
+]
+Chapter 219.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 32.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 32.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 32.
+
+[467
+
+]
+Chapter 220.
+[468
+
+] [469
+
+]
+Chapter 221.
+[470
+
+]
+Chapter 222.
+[471
+
+
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+] [472
+
+]
+Chapter 223.
+[473
+
+]
+Chapter 224.
+[474
+
+] [475
+
+]
+Chapter 225.
+[476
+
+]
+Chapter 226.
+[477
+
+] [478
+
+]
+Chapter 227.
+[479
+
+
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+]
+Chapter 228.
+[480
+
+] [481
+
+
+Missing character: There is no Č (U+010C) in font ec-lmbx12!
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 110.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 110.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 110.
+
+[482
+
+
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+] [483
+
+
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+]) (./book_IV_sheafic/book_20_stacked_plena.tex [484
+
+] [485
+
+] [486
+
+] [487
+
+]
+[488
+
+]
+Chapter 229.
+[489
+
+]
+Chapter 230.
+[490
+
+] [491
+
+]
+Chapter 231.
+[492
+
+]
+Chapter 232.
+[493
+
+] [494
+
+]
+Chapter 233.
+[495
+
+]
+Chapter 234.
+[496
+
+] [497
+
+]
+Chapter 235.
+[498
+
+]
+Chapter 236.
+[499
+
+] [500
+
+]
+Chapter 237.
+[501
+
+]
+Chapter 238.
+[502
+
+
+Missing character: There is no Č (U+010C) in font ec-lmr12!
+] [503
+
+]
+Chapter 239.
+[504
+
+]
+Chapter 240.
+[505
+
+] [506
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 110.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 110.
+
+[507
+
+] [508
+
+])) (./consistency_matrix.tex
+Overfull \hbox (388.96996pt too wide) in paragraph at lines 9--38
+ [][] 
+ []
+
+[509
+
+]
+Overfull \hbox (141.94312pt too wide) in paragraph at lines 46--57
+ [][] 
+ []
+
+) (./appendices/afterword.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[510
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↔ (U+2194) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ⇅ (U+21C5) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ✓ (U+2713) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr8!
+Missing character: There is no ↑ (U+2191) in font ec-lmr12!
+Missing character: There is no ⇅ (U+21C5) in font ec-lmr12!
+Missing character: There is no ↔ (U+2194) in font ec-lmr12!
+Missing character: There is no – (U+2013) in font ec-lmr12!
+Missing character: There is no – (U+2013) in font ec-lmr12!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no – (U+2013) in font ec-lmr8!
+Missing character: There is no ✅ (U+2705) in font ec-lmr8!
+Missing character: There is no ✅ (U+2705) in font ec-lmr8!
+Missing character: There is no ✅ (U+2705) in font ec-lmr8!
+Missing character: There is no ✅ (U+2705) in font ec-lmr8!
+Missing character: There is no ✅ (U+2705) in font ec-lmr8!
+]
+Overfull \hbox (202.55286pt too wide) in paragraph at lines 10--14
+[]\T1/lmr/m/n/12 This sec-tion is a place-holder. The cor-re-spond-ing books hav
+e ab-stracts in \T1/lmtt/m/n/12 abstracts/Zero_Day_Exploits_Abstracts.md
+ []
+
+
+Overfull \hbox (3.55417pt too wide) in paragraph at lines 10--14
+\T1/lmr/m/n/12 and taglines in \T1/lmtt/m/n/12 taglines/Zero_Day_Exploits_Taglin
+es.md\T1/lmr/m/n/12 , but full manuscript
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[511] (./main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 70F11E69B09F5B7F03E7DB6665148CA5;121807.
+
+)
+
+Here is how much of LuaTeX's memory you used:
+ 15618 strings out of 476553
+ 125129,1977958 words of node,token memory allocated
+ 883 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 60 attribute, 61 glue_spec
+, 60 attribute_list, 1 write, 23 pdf_action nodes
+   avail lists: 2:1185,3:270,4:106,5:689,6:75,7:13380,8:45,9:748,10:28,11:1262
+ 36127 multiletter control sequences out of 65536+600000
+ 118 fonts using 7384031 bytes
+ 77i,14n,78p,1849b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/eule
+r/eufm10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (537 pages, 1028638 bytes).
+
+PDF statistics: 4979 PDF objects out of 5155 (max. 8388607)
+ 4371 compressed objects within 44 object streams
+ 1046 named destinations out of 1200 (max. 131072)
+ 4049 words of extra memory for PDF output out of 10000 (max. 100000000)
+
