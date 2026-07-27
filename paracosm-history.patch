@@ -61,3 +61,9 @@ index 0000000..6468446
 +
 +\part{The Objects and Morphisms of RSVP}
 +
++\chapter{Objects: Thermodynamic Manifolds}
++
++The category $\mathbf{RSVPField}$ has as its objects tuples $X = (M, g, \PhiField, \vField, \SEntropy)$, a manifold equipped with the metric Book 6 constructed and the field triple that metric was built from, subject to the fixed plenum measure $\mathrm{vol}(M) = \text{const}$ already required by the non-expanding plenum constraint this series has maintained since that book. Objects of this category are read here as sites of persistence, locations at which a particular configuration of curvature, entropy, and flow is realized and sustained rather than merely passing through.
++
++Examples developed in this chapter, a cognitive surface in the sense of Book 9, an ecological basin, and a social attractor, each instantiate this object structure in a different domain, illustrating that $\mathbf{RSVPField}$'s objects are not restricted to any single scale of application: whatever satisfies the defining tuple, at whatever scale, is a legitimate object of this category.
++
