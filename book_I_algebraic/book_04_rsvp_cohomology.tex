@@ -147,3 +147,8 @@ The RSVP differential complex of Chapter 1 is modeled, at the level of formal ma
 
 A minimal implementation constructs the filtration $M_t$ of Chapter 4 by thresholding a discretized entropy field, computes the boundary matrices of the resulting simplicial complexes at each threshold, and extracts birth and death times for each homology class via standard persistent-homology reduction algorithms, weighting the resulting diagram by the local value of $\SEntropy$ at each class's birth to obtain the entropy-weighted diagrams referenced in Chapters 4 and 9.
 
+\chapter*{Appendix C: Proof of the RSVP Gauss--Bonnet Identity}
+\addcontentsline{toc}{chapter}{Appendix C: Proof of the RSVP Gauss--Bonnet Identity}
+
+The invariance of $\chi_{\mathrm{RSVP}}$ under smooth entropy flow, stated in Chapter 11, follows by differentiating the defining integral with respect to the flow parameter and applying the divergence theorem to the resulting boundary term, which vanishes identically on a plenum without boundary; the remaining bulk term is shown to vanish by the same entropic monotonicity result established in Book 1's treatment of the RSVP cochain complex, applied here to the scalar curvature $R$ rather than to the bare commutator.
+
