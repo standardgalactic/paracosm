@@ -115,3 +115,9 @@ index 0000000..6468446
 +
 +\part{Monoidal and Higher Structures}
 +
++\chapter{Monoidal Composition of Fields}
++
++A tensor product $X \otimes Y$ on objects of $\mathbf{RSVPField}$ represents independent coexistence of plenal regions, two sites of persistence considered jointly without requiring any morphism between them individually. The associator governing this tensor product encodes order-sensitivity of learning, the fact that combining three regions' structure in one grouping order rather than another can, in general, yield a different result, and the unit object $\mathbf{I}$ of this monoidal structure is perfect smoothness, the entropy-equilibrium configuration that acts as an identity for the tensor product in the same way the ordinary multiplicative identity acts for multiplication.
++
++This chapter previews the fuller development Book 15 undertakes of RSVP's curvature algebra as a genuinely symmetric monoidal category, establishing here only the tensor product's basic properties rather than the full coherence theorems that book's dedicated treatment requires.
++
