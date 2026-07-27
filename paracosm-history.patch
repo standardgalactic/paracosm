@@ -166,3 +166,8 @@ index 0000000..f8b6fce
 --- /dev/null
 +++ b/book_III_categorical/book_12_entropy_natural_transformation.tex
 @@ -0,0 +1,122 @@
++\chapter*{Preface}
++\addcontentsline{toc}{chapter}{Preface}
++
++Book 11's Chapter 5 previewed a natural transformation $\SEntropy: \PhiField \Rightarrow \vField$, establishing only enough of its structure to motivate the categorical vocabulary that book was introducing. The present book redeems that preview in full. Here, entropy is formalized as the natural transformation between the scalar potential functor and the vector flow functor within the category $\mathbf{RSVPField}$, and the second law of thermodynamics is shown to be nothing other than a naturality condition: entropy mediates every lawful relation between potential and movement, and every failure of that mediation to remain natural is, in the vocabulary this book develops, exactly what informational or ethical friction consists in. Entropy, by the end of this book, is established not as loss but as the structural continuity that allows systems to learn, evolve, and care.
++
