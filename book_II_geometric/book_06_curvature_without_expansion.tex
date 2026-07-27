@@ -45,3 +45,9 @@ A scalar curvature $R_{ij}$ is obtained here as a contraction of $K_{ij}$ agains
 
 \part{Entropy Diffusion and Ricci Flow}
 
+\chapter{The RSVP Ricci Flow}
+
+The fundamental evolution equation of this book's geometric dynamics is $\partial_t g_{ij} = -2 R_{ij}(\SEntropy)$, with $R_{ij}(\SEntropy)$ the entropy-dependent Ricci tensor constructed in Chapter 4, expressed entirely in terms of entropy gradients rather than independently specified. This is the RSVP counterpart of Hamilton's Ricci flow, with the metric's evolution driven not by an externally imposed flow parameter but by the plenum's own entropy structure.
+
+An RSVP entropy functional $\mathcal{S}[g] = \int_M (\nabla_i \SEntropy \, \nabla^i \SEntropy) \, dV$ is defined to track this evolution, and the central claim of this chapter is that $\mathcal{S}[g]$ is monotonically non-decreasing under the flow, $d\mathcal{S}/dt \geq 0$, consistent with, though not an independent re-derivation of, the global entropy monotonicity already assumed throughout this series; the present functional gives that assumption a specific geometric quantity to attach to, in the spirit of Perelman's use of an entropy functional as a Lyapunov quantity for Ricci flow, rather than establishing monotonicity from first principles here. A simulation of curvature smoothing in a high-curvature domain, tracking $\mathcal{S}[g]$ numerically as the flow proceeds, is sketched in Appendix B.
+
