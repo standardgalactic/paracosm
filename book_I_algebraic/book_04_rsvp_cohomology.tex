@@ -27,3 +27,19 @@ The physical interpretation of the complex is conservation of flux across the RS
 
 \emph{Meaning Note.} What survives this chapter's construction is not any particular configuration of the fields but the distinction between closed and exact forms itself: a pattern's survival through smoothing is decided by which side of that distinction it falls on, not by any further property that must be checked case by case.
 
+\chapter{Entropy Differential and Cohomological Energy}
+
+Define the entropy differential $d_{\SEntropy} = \grad \SEntropy \wedge \cdot$, the operator of exterior multiplication by the one-form $d\SEntropy$ dual to the entropy gradient already familiar from Books 1 and 3. Read this way, $d_{\SEntropy}$ is not merely analogous to an exterior derivative but literally is one, restricted to multiplication by a fixed, closed one-form, and its nilpotency is correspondingly not a further postulate but an immediate consequence of the exterior algebra: for any one-form $\alpha$, $\alpha \wedge \alpha = 0$ by the graded antisymmetry of the wedge product, so that
+\[
+d_{\SEntropy}^2 A = \grad\SEntropy \wedge (\grad\SEntropy \wedge A) = (\grad\SEntropy \wedge \grad\SEntropy) \wedge A = 0
+\]
+for any form $A$ on which $d_{\SEntropy}$ acts. This is a stronger footing than the Jacobi-identity postulate of Book 1: $d_{\SEntropy}^2 = 0$ holds here as an established fact of exterior algebra, not as an assumption adopted for the sake of downstream consistency, and it holds regardless of whether the bracket-based postulates of Book 1 are granted. The energy functional
+\[
+\mathcal{E}[A] = \int_M A \wedge d_{\SEntropy} A
+\]
+is shown, in this chapter, to be conserved given this nilpotency: any configuration $A$ for which this functional is well defined evolves so that $\mathcal{E}[A]$ does not change under the plenum's smoothing dynamics, provided $A$ remains closed under $d_{\SEntropy}$.
+
+The chapter's central proof establishes that the cohomological invariants built from this energy functional correspond exactly to paths of minimal entropy production, tying the present chapter's abstract cohomological machinery directly to the thermodynamic content already established in Books 1 and 3 rather than leaving it as a formal parallel construction. The ethical corollary drawn here treats persistence, so characterized, as compassionate stability: a configuration that survives as a cohomological invariant is one that has found, among all the paths available to it, the one that costs the plenum least to sustain, and stability of this kind is proposed as the formal core of what ordinary ethical language calls care.
+
+\emph{Meaning Note.} Persistence, on this chapter's construction, is not resistance to change but a specific, minimal relationship to change: what survives is what has already found the cheapest path through the entropy the plenum cannot avoid producing.
+
