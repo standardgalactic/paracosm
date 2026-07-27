@@ -51,3 +51,9 @@ Cognitive states are represented in this chapter as points on the manifold of pr
 
 An example developed here maps affective states onto geometric basins of attraction within this manifold, with stable emotional states corresponding to local minima of a potential built from $M$ and volatile or transitional states corresponding to saddle regions between such minima, giving the geometric vocabulary of this book a direct application to affective modeling without requiring any construction beyond what Parts I and II have already supplied.
 
+\chapter{Learning as Curvature Descent}
+
+A learning flow, $\partial_t g_{ij} = -2 \partial_i \partial_j \SEntropy$, is defined here as a cognitive-scale instance of the general Ricci flow Book 6 established for the plenum as a whole, specialized to the preference metric's own second derivatives of entropy rather than to the full entropy-dependent Ricci tensor $R_{ij}(\SEntropy)$ of that earlier construction. Convergence under this flow is shown to proceed toward smoother, more coherent manifolds, exactly as Book 6's general flow converged toward reduced curvature, with learning identified here as curvature diffusion that preserves meaning in the cohomological sense of Book 4: a learning system's convergence does not erase the closed cochains that constitute its accumulated understanding, only smooths the curvature surrounding them.
+
+Comparison to gradient-flow dynamics in neural networks is direct: an ordinary neural network's training dynamics, descending a loss landscape by gradient steps, is read here as a specific, discretized instance of the present continuous learning flow, with the loss landscape playing the role of the entropy field $\SEntropy$ whose second derivatives drive the metric's evolution.
+
