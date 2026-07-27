@@ -229,3 +229,9 @@ index 0000000..f8b6fce
 +
 +\part{Adjunctions and Dual Transformations}
 +
++\chapter{Entropy and Negentropy as Adjoints}
++
++An adjunction $\SEntropy \dashv \SEntropy^{*}$ is constructed in this chapter between the entropy natural transformation of Chapter 2 and a negentropy transformation $\SEntropy^{*}$ built as its right adjoint, with the triangle identities governing this adjunction corresponding to local equilibrium conditions: a system satisfying both triangle identities has reached a configuration at which entropy production and negentropic recovery are in exact categorical balance. $\SEntropy^{*}$ is interpreted here as the ethical reconstruction operator Book 5's antifield $\SEntropy^{*}$ already introduced, with the present adjunction giving that earlier antifield construction its categorical foundation: the BV master equation of Book 5's Chapter 3 is shown here to be equivalent to the triangle identities of the present adjunction, expressed in a different but fully compatible vocabulary.
++
++The symmetry of compassion proposed at the close of this chapter treats loss and recovery as dual maps: $\SEntropy$, mediating the loss of distinguishable structure, and $\SEntropy^{*}$, mediating its recovery, are not independent operations requiring separate justification but adjoint functors whose triangle identities guarantee that recovery, wherever it occurs, is the categorically dual operation to the loss it recovers from.
++
