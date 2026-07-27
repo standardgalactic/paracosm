@@ -33,3 +33,13 @@ The consequence drawn here, that curvature decreases along increasing entropy, f
 
 \part{Analytic Structure of the Flow}
 
+\chapter{Entropy Functionals and Gradient Formulation}
+
+The RSVP functional
+\[
+\mathcal{F}[g, \SEntropy] = \int_M (R + |\grad \SEntropy|^2)\, e^{-\SEntropy}\, dV
+\]
+extends the simpler entropy functional $\mathcal{S}[g] = \int_M (\grad_i \SEntropy \, \grad^i \SEntropy)\, dV$ that Book 6's Chapter 5 used as a first approximation, adding both the scalar curvature $R$ and an exponential entropy weighting that Book 6's version omitted. Computing this functional's gradient under variations of $g_{ij}$ and $\SEntropy$ independently yields the refined flow equation $\partial_t g_{ij} = -2(\grad_i \grad_j \SEntropy + R_{ij})$, a genuine strengthening of Book 6's flow equation rather than a restatement of it, since the present equation couples the metric's evolution to the second covariant derivative of entropy directly, not merely to the contracted curvature $R_{ij}(\SEntropy)$ that earlier chapter constructed.
+
+This chapter's central result, that $\mathcal{F}$ decreases monotonically under the refined flow, is established by the same route as every other monotonicity claim in this series: it follows from the standing entropy postulate together with a divergence-theorem argument of the kind given fully in Book 4's Appendix C and adapted for this functional in Appendix C below, rather than from an independent proof at the level of first principles. The ethical reading proposed at the close of this chapter treats this monotonic decrease as diligence: dissipation, on this account, is not waste but the exact quantity a diligent system minimizes, wherever $\mathcal{F}$ is the correct functional for measuring its informational tension.
+
