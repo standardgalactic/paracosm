@@ -29,3 +29,9 @@ The identity morphism on any object is the homeomorphic persistence map, the map
 
 \part{Functorial Structure of Smoothing}
 
+\chapter{The Entropy Functor}
+
+The entropy functor $E: \mathbf{RSVPField} \to \mathbf{Set}$ maps each object to its entropy distribution, the set of values $\SEntropy$ takes across the underlying manifold, and morphisms of $\mathbf{RSVPField}$ induce push-forwards $E(f): \SEntropy_X \mapsto \SEntropy_Y$ under this functor, carrying a source object's entropy distribution to the target's in the manner the morphism's defining condition already specifies. Functoriality here is shown to coincide with Clausius consistency: the requirement $E(g \circ f) = E(g) \circ E(f)$, that entropy propagation composes correctly, is exactly the categorical restatement of the requirement, familiar from ordinary thermodynamics, that entropy accounting be consistent across composed processes.
+
+Entropy propagation, under this functorial reading, is categorical naturality rather than a separate physical postulate requiring its own justification: wherever $E$ is a genuine functor, satisfying the composition law above, entropy propagates consistently across any chain of morphisms by that fact alone, without further argument.
+
