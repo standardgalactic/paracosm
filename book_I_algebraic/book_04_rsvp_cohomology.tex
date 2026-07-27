@@ -142,3 +142,8 @@ An expyrotic cycle, however, is shown to begin when a fluctuation recreates non-
 
 The RSVP differential complex of Chapter 1 is modeled, at the level of formal machinery, on the de Rham complex of ordinary differential geometry, with the fields $\PhiField$, $\vField$, and $\SEntropy$ playing the roles ordinarily played by differential forms of successive degree. Persistent cohomology, used throughout Parts II and V, extends this machinery by tracking how the cohomology of a filtered space changes as the filtration parameter varies, exactly as employed in Chapters 4 and 9 above.
 
+\chapter*{Appendix B: Pseudocode for Entropy-Weighted Persistent Diagrams}
+\addcontentsline{toc}{chapter}{Appendix B: Pseudocode for Entropy-Weighted Persistent Diagrams}
+
+A minimal implementation constructs the filtration $M_t$ of Chapter 4 by thresholding a discretized entropy field, computes the boundary matrices of the resulting simplicial complexes at each threshold, and extracts birth and death times for each homology class via standard persistent-homology reduction algorithms, weighting the resulting diagram by the local value of $\SEntropy$ at each class's birth to obtain the entropy-weighted diagrams referenced in Chapters 4 and 9.
+
