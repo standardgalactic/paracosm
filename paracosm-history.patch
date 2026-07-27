@@ -160,3 +160,8 @@ index 0000000..6468446
 +\addcontentsline{toc}{chapter}{Appendix D: Reflective Note --- ``To Compose is to Preserve Curvature''}
 +
 +The phrase heading this appendix names what this book has argued across twelve chapters: that composition, in the categorical sense this book has developed, is never a neutral operation performed on objects that happen to carry curvature incidentally. Every morphism of $\mathbf{RSVPField}$ is defined by what it preserves, and every composition of morphisms accordingly preserves that same structure across the whole composite. To compose, in the vocabulary this book has built, is already to preserve curvature; no further ethical gloss needs to be added to a fact the mathematics already states directly.
+diff --git a/book_III_categorical/book_12_entropy_natural_transformation.tex b/book_III_categorical/book_12_entropy_natural_transformation.tex
+new file mode 100644
+index 0000000..f8b6fce
+--- /dev/null
++++ b/book_III_categorical/book_12_entropy_natural_transformation.tex
