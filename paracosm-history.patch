@@ -213,3 +213,5 @@ index 0000000..f8b6fce
 +
 +The arrow of time, on this account, is a partial order on care: not a distinguished external parameter against which change is measured but the ordering $\mathcal{T}$ itself induces on the morphisms of $\mathbf{RSVPField}$, with earlier and later meaning nothing more, and nothing less, than lower and higher in this order.
 +
++\part{Functorial Derivations and Differentials}
++
