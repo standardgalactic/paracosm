@@ -235,3 +235,9 @@ index 0000000..f8b6fce
 +
 +The symmetry of compassion proposed at the close of this chapter treats loss and recovery as dual maps: $\SEntropy$, mediating the loss of distinguishable structure, and $\SEntropy^{*}$, mediating its recovery, are not independent operations requiring separate justification but adjoint functors whose triangle identities guarantee that recovery, wherever it occurs, is the categorically dual operation to the loss it recovers from.
 +
++\chapter{Functorial Energy Balance}
++
++An energy functor $E(X) = \int \PhiField(X) \cdot \vField(X)\, dV$ combines the potential and flow functors of Chapter 1 into a single scalar-valued quantity for each object, and this chapter shows that entropy naturality, the condition of Chapter 2, preserves $E$: wherever the naturality square commutes exactly, $E$ evaluated at the source and target of a morphism agree, giving energy conservation a direct categorical derivation rather than treating it as an independently postulated law.
++
++Failure of the adjunction of Chapter 7 is shown here to produce energy leakage, a discrepancy between $E(X)$ and $E(Y)$ under a morphism whose entropy naturality fails to hold exactly, and this chapter's ethical reading treats such leakage as moral dissonance: conservation, on this account, is care in composition, and its failure is not merely a bookkeeping discrepancy but the categorical signature of a relationship that has failed to preserve what it owed to preserve.
++
