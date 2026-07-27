@@ -106,3 +106,8 @@ The global theorem closing this book states that any coherent composition, one s
 
 The pentagon identity, relating the five ways of associating a fourfold tensor product, and the triangle identity, relating the unit object's interaction with the associator, are verified directly for $\mathbf{RSVPField}$'s tensor product by checking both against the explicit product-manifold construction of Chapter 1: since the underlying manifold product is associative and unital in the ordinary set-theoretic sense, and the metric, entropy, and potential components combine by direct sum and addition respectively, both coherence identities reduce to the corresponding identities for ordinary Cartesian products and real-number addition, both of which hold without further argument.
 
+\chapter*{Appendix B: Tensor-Network Pseudocode for Cooperative Curvature Optimization}
+\addcontentsline{toc}{chapter}{Appendix B: Tensor-Network Pseudocode for Cooperative Curvature Optimization}
+
+A minimal implementation represents a tensor network's nodes as field triples $(\PhiField_i, \vField_i, \SEntropy_i)$ and its edges as tensor-product couplings in the sense of Chapter 1, iterating the distributed curvature-minimization procedure of Chapter 5 and tracking the global policy curvature of Chapter 7 as a convergence diagnostic, providing the computational basis for the empirical metrics proposed in Chapter 11.
+
