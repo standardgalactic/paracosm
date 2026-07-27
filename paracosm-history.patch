@@ -121,3 +121,9 @@ index 0000000..6468446
 +
 +This chapter previews the fuller development Book 15 undertakes of RSVP's curvature algebra as a genuinely symmetric monoidal category, establishing here only the tensor product's basic properties rather than the full coherence theorems that book's dedicated treatment requires.
 +
++\chapter{Toward Higher Morphisms}
++
++Two-morphisms between curvature functors are defined in this chapter as transformations between the functorial constructions of Part II, extending $\mathbf{RSVPField}$'s structure from an ordinary category to a 2-category in which morphisms between morphisms are themselves meaningful objects of study. An outline of the extension to $\infty$-categories, needed for the derived stacks Book 20 will construct, is sketched here in its minimal form, establishing only the pattern by which higher morphisms accumulate rather than developing the full $\infty$-categorical machinery that later book requires.
++
++Compatibility with the BV antifield hierarchy of Book 5 is shown here directly: the antifield structure that book introduced for regularizing entropy imbalance is shown to correspond to a specific 2-morphism in the present hierarchy, correcting a functor's failure to preserve curvature exactly as the antifield corrected a field configuration's failure to satisfy the master equation. This chapter closes with a preview of the derived sheaf formalism Books 20 and following will develop, noting only that the present 2-categorical structure is the minimal extension needed before that formalism becomes available.
++
