@@ -61,3 +61,13 @@ Memory decay and cognitive bias are modeled here as presheaf deformation, a syst
 
 \part{Dynamics of Meaning Flow}
 
+\chapter{Differential of Restriction}
+
+An infinitesimal restriction operator,
+\[
+D\mathcal{I}(U) = \lim_{\epsilon \to 0} \frac{\mathcal{I}(U) - \mathcal{I}(U_\epsilon)}{\epsilon},
+\]
+tracks how the presheaf of intelligibility changes as a context $U$ is infinitesimally narrowed to $U_\epsilon$, giving a direct measure of sensitivity of understanding to context: a large value of $D\mathcal{I}(U)$ indicates an interpretive model that changes rapidly under small contextual narrowing, while a small value indicates one that remains largely stable.
+
+The analogy proposed here treats this construction as cognitive gradient descent on a semantic manifold, extending the intelligibility geodesics Book 9 developed for trajectories through the meaning manifold into the present, presheaf-theoretic register. An application developed here treats language-model fine-tuning as presheaf differentiation directly: the incremental adjustment of a model's outputs under further training data is modeled as the operator $D\mathcal{I}$ applied repeatedly to progressively narrower training contexts.
+
