@@ -7,7 +7,7 @@ ChatGPT
 5
 Compartir
 Dijiste:
-Don't use Trinity: Excellent ��� that���s the right next move. The bridge essay will act as a conceptual ligature between your major frameworks ��� RSVP, Simulated Agency, Yarncrawler, HYDRA, and Semantic Infrastructure ��� showing how the operator classes (Lamphron, Amplitwist, Sheaf Morphism, etc.) together form a general ontology of coherence across cosmology, cognition, and computation.
+Don't use Trinity: Excellent ��� that���s the right next move. The bridge essay will act as a conceptual ligature between your major frameworks ��� RSVP, Simulated Agency, Yarncrawler, HYDRA, and Semantic Infrastructure ��� showing how the operator classes (Lamphron, amplitwist, Sheaf Morphism, etc.) together form a general ontology of coherence across cosmology, cognition, and computation.
 
 Below is a complete first draft of the essay
 ���Operator Ecology: Linking RSVP, Simulated Agency, and Semantic Infrastructure.���
@@ -69,7 +69,7 @@ The lamphron diffuses curvature; the lamphrodyne counterflows to preserve struct
 Together, they are the cosmological metabolism of entropy: expansion and recollection.
 
 
-2. Amplitwist ��� Local Conformal Reparameterization
+2. amplitwist ��� Local Conformal Reparameterization
 The amplitwist converts the global tendency of lamphronic smoothing into a local mechanism of adaptive geometry.
 It acts wherever information must be rotated and scaled without distortion���within neurons, thoughts, or semantic frames.
 Cognition itself becomes a distributed field of amplitwists balancing exploration and amplification.
@@ -83,7 +83,7 @@ It ensures that local transformations remain compatible across overlaps, allowin
 
 Together, these three form the Operator Algebra of Coherence:
 
-\mathcal{O}_{RSVP} = \{\text{Lamphron}, \text{Amplitwist}, \text{Sheaf Morphism}\},
+\mathcal{O}_{RSVP} = \{\text{Lamphron}, \text{amplitwist}, \text{Sheaf Morphism}\},
 
 
 ---
@@ -152,7 +152,7 @@ They describe how reality edits itself while remaining legible.
 Across the RSVP frameworks, from cosmology to cognition to computation, these operators instantiate a single recursive grammar of coherence:
 
 \text{Relax (Lamphron)} \rightarrow
-\text{Reorient (Amplitwist)} \rightarrow
+\text{Reorient (amplitwist)} \rightarrow
 \text{Reconcile (Sheaf Morphism)}.
 
 To understand any system���physical, mental, or semantic���is to trace how it performs this sequence.
@@ -352,7 +352,7 @@ _
 \]
 They form the large-scale symmetry of relaxation and retention.
 \subsection
-{Amplitwist: Local Conformal Reparameterization}
+{amplitwist: Local Conformal Reparameterization}
 
 The
 \emph
@@ -454,7 +454,7 @@ _
 \text
 {Lamphron},
 \text
-{Amplitwist},
+{amplitwist},
 \text
 {Sheaf Morphism}
 \}
@@ -601,7 +601,7 @@ Across the RSVP frameworks---from cosmology to cognition to computation---these 
 \rightarrow
 \;
 \text
-{Reorient (Amplitwist)}
+{Reorient (amplitwist)}
 \;
 \rightarrow
 \;
@@ -625,7 +625,7 @@ to see every gradient as a potential rotation, every dissonance as a twistable c
 {RSVP Cosmology:} ``Gravity as Entropy Descent'' (Flyxion, 2025)
 \item
 \emph
-{Simulated Agency:} ``Conformal Cognition and the Amplitwist Field'' (Flyxion, 2025)
+{Simulated Agency:} ``Conformal Cognition and the amplitwist Field'' (Flyxion, 2025)
 \item
 \emph
 {HYDRA Architecture:} ``Distributed Entropy Synchronization'' (Flyxion, 2025)
