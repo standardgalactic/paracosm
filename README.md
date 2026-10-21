@@ -1,5 +1,7 @@
 # Zero Day Exploits: The RSVP Corpus
 
+[Entropy's Edge Specification](https://standardgalactic.github.io/paracosm/entropys-edge-specification.pdf)
+
 [RSVP Codex](https://standardgalactic.github.io/paracosm/RSVP-codex.pdf)
 
 ## Overview
